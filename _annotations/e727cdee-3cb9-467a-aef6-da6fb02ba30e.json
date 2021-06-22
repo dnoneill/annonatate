@@ -4,19 +4,6 @@ order: 1
 ---
 {
     "type": "Annotation",
-    "body": [
-        {
-            "type": "TextualBody",
-            "purpose": "commenting",
-            "created": "2021-06-22T22:27:00.074Z",
-            "value": "Main Plaza",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "modified": "2021-06-22T22:27:02.005Z"
-        }
-    ],
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "{{site.url}}{{site.baseurl}}/annotations/e727cdee-3cb9-467a-aef6-da6fb02ba30e.json",
     "target": {
@@ -30,5 +17,18 @@ order: 1
             "id": "https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json",
             "type": "Manifest"
         }
-    }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "created": "2021-06-22T22:27:00.074Z",
+            "value": "Main Plaza",
+            "purpose": "describing",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-06-22T22:27:07.818Z"
+        }
+    ]
 }
