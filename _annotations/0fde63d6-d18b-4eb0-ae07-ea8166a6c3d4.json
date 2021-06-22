@@ -3,42 +3,43 @@ canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBay
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://dnoneill.github.io/annonatate/annotations/0fde63d6-d18b-4eb0-ae07-ea8166a6c3d4.json",
     "target": {
-        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:53633.01953125,94.61233520507812,2136.3203125,767.7407531738281"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:53633.01953125,94.61233520507812,2136.3203125,767.7407531738281"
+        },
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "{{site.url}}{{site.baseurl}}/annotations/0fde63d6-d18b-4eb0-ae07-ea8166a6c3d4.json",
+    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
             "created": "2021-06-22T22:38:14.009Z",
-            "value": "Long boat construction",
-            "purpose": "describing",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "modified": "2021-06-22T22:38:20.806Z"
+            "modified": "2021-06-22T22:38:20.806Z",
+            "purpose": "describing",
+            "type": "TextualBody",
+            "value": "Long boat construction"
         },
         {
-            "type": "TextualBody",
+            "created": "2021-06-22T22:38:23.697Z",
             "purpose": "commenting",
-            "value": "<iiif-annotation annotationurl='https://dnoneill.github.io/annonatate/annotations/938b4fb1-7259-4708-a5fd-4d47c63e67f6.json'></iiif-annotation>",
+            "type": "TextualBody",
+            "value": "<iiif-annotation annotationurl='https://dnoneill.github.io/annonatate/annotations/938b4fb1-7259-4708-a5fd-4d47c63e67f6.json' styling=\"image_only: true\"></iiif-annotation>",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2021-06-22T22:38:23.697Z"
+            "modified": "2021-06-22T22:39:51.791Z"
         }
     ]
 }
