@@ -1,0 +1,34 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "created": "2021-06-22T22:27:58.415Z",
+            "value": "I haven't been here in over a year.",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-06-22T22:28:09.480Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/242cdd3f-00e1-4d2f-84b8-ad0efd440510.json",
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:3726.13525390625,696.842041015625,3425.493408203125,909.5568237304688"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json",
+            "type": "Manifest"
+        }
+    }
+}
