@@ -1,0 +1,34 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 4
+---
+{
+    "type": "Annotation",
+    "target": {
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:53633.01953125,94.61233520507812,2136.3203125,767.7407531738281"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "created": "2021-06-22T22:38:14.009Z",
+            "value": "Long boat construction",
+            "purpose": "describing",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-06-22T22:38:20.806Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/0fde63d6-d18b-4eb0-ae07-ea8166a6c3d4.json"
+}
