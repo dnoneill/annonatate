@@ -33,12 +33,12 @@ order: 2
             "type": "TextualBody",
             "purpose": "commenting",
             "created": "2021-06-22T22:31:43.067Z",
-            "value": "Still standing in present day. <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bosham._Holy_Trinity_Church._-_panoramio.jpg/1280px-Bosham._Holy_Trinity_Church._-_panoramio.jpg\">",
+            "value": "Still standing in present day. <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bosham._Holy_Trinity_Church._-_panoramio.jpg/1280px-Bosham._Holy_Trinity_Church._-_panoramio.jpg\" style=\"height:200px\">",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "modified": "2021-06-22T22:31:56.513Z"
+            "modified": "2021-06-22T22:32:20.947Z"
         }
     ]
 }
