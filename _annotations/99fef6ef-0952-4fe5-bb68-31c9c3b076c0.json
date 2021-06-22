@@ -15,19 +15,19 @@ order: 1
             "type": "Manifest"
         }
     },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/99fef6ef-0952-4fe5-bb68-31c9c3b076c0.json",
     "body": [
         {
             "type": "TextualBody",
-            "purpose": "commenting",
             "created": "2021-06-22T22:29:27.467Z",
             "value": "Kind Edward",
+            "purpose": "describing",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "modified": "2021-06-22T22:29:31.386Z"
+            "modified": "2021-06-22T22:29:38.382Z"
         }
-    ],
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "{{site.url}}{{site.baseurl}}/annotations/99fef6ef-0952-4fe5-bb68-31c9c3b076c0.json"
+    ]
 }
