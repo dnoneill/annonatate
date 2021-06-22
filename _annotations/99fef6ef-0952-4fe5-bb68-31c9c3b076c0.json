@@ -1,0 +1,33 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "target": {
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1486.3951416015625,262.9990234375 1408.3994140625,333.9042053222656 1456.614990234375,376.44732666015625 1460.8692626953125,418.99041748046875 1433.92529296875,471.4602355957031 1377.201171875,440.261962890625 1347.4210205078125,471.4602355957031 1429.6710205078125,546.6197509765625 1414.0718994140625,583.4904174804688 1472.214111328125,689.84814453125 1450.9425048828125,725.30078125 1445.2701416015625,789.1154174804688 1643.8045654296875,790.5335083007812 1598.42529296875,735.2274780273438 1643.8045654296875,726.7188720703125 1704.7830810546875,583.4904174804688 1669.3304443359375,536.6929931640625 1650.8951416015625,457.2792053222656 1680.67529296875,348.0852355957031 1638.1322021484375,312.6326599121094 1575.735595703125,387.7921447753906 1545.9554443359375,291.3611145019531\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "created": "2021-06-22T22:29:27.467Z",
+            "value": "Kind Edward",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-06-22T22:29:31.386Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/99fef6ef-0952-4fe5-bb68-31c9c3b076c0.json"
+}
