@@ -1,0 +1,33 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "target": {
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4235.22705078125,175.1690673828125 4205.8212890625,275.63885498046875 4173.96484375,412.86590576171875 4191.1181640625,621.1569213867188 4151.91064453125,711.8248291015625 4156.8115234375,782.8887939453125 4732.6748046875,770.6364135742188 4619.95263671875,699.5723876953125 4624.85400390625,280.5398254394531 4551.33935546875,172.7185821533203 4460.67138671875,258.4854736328125 4311.19189453125,258.4854736328125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "created": "2021-06-22T22:31:19.392Z",
+            "value": "Church of Bosham",
+            "purpose": "describing",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-06-22T22:31:37.533Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/f1518476-4817-4a18-9474-5f7f804dfbf7.json"
+}
