@@ -16,6 +16,8 @@ order: 4
             "type": "Manifest"
         }
     },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/0fde63d6-d18b-4eb0-ae07-ea8166a6c3d4.json",
     "body": [
         {
             "type": "TextualBody",
@@ -27,8 +29,16 @@ order: 4
                 "name": "dnoneill"
             },
             "modified": "2021-06-22T22:38:20.806Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "value": "<iiif-annotation annotationurl='https://dnoneill.github.io/annonatate/annotations/938b4fb1-7259-4708-a5fd-4d47c63e67f6.json'></iiif-annotation>",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2021-06-22T22:38:23.697Z"
         }
-    ],
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "{{site.url}}{{site.baseurl}}/annotations/0fde63d6-d18b-4eb0-ae07-ea8166a6c3d4.json"
+    ]
 }
