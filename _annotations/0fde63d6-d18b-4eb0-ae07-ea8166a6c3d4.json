@@ -34,12 +34,12 @@ order: 4
             "created": "2021-06-22T22:38:23.697Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<iiif-annotation annotationurl='https://dnoneill.github.io/annonatate/annotations/938b4fb1-7259-4708-a5fd-4d47c63e67f6.json' styling=\"image_only: true\"></iiif-annotation>",
+            "value": "<iiif-annotation annotationurl='https://dnoneill.github.io/annonatate/annotations/938b4fb1-7259-4708-a5fd-4d47c63e67f6.json' styling='image_only: true;'></iiif-annotation>",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "modified": "2021-06-22T22:39:51.791Z"
+            "modified": "2021-06-22T22:41:18.351Z"
         }
     ]
 }
