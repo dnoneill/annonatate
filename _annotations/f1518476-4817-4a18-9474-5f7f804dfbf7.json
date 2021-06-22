@@ -15,6 +15,8 @@ order: 2
             "type": "Manifest"
         }
     },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/f1518476-4817-4a18-9474-5f7f804dfbf7.json",
     "body": [
         {
             "type": "TextualBody",
@@ -26,8 +28,17 @@ order: 2
                 "name": "dnoneill"
             },
             "modified": "2021-06-22T22:31:37.533Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "created": "2021-06-22T22:31:43.067Z",
+            "value": "Still standing in present day. <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bosham._Holy_Trinity_Church._-_panoramio.jpg/1280px-Bosham._Holy_Trinity_Church._-_panoramio.jpg\">",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-06-22T22:31:56.513Z"
         }
-    ],
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "{{site.url}}{{site.baseurl}}/annotations/f1518476-4817-4a18-9474-5f7f804dfbf7.json"
+    ]
 }
