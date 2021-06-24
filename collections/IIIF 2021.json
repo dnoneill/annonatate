@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "IIIF 2021",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-storyboard annotationurl='https://dnoneill.github.io/annonatate/annotations/fullbayeux-json-list.json'></iiif-storyboard>",
+            "title": "Bayeux",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
+}
