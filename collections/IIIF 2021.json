@@ -9,6 +9,12 @@
             "title": "Bayeux",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='https://dnoneill.github.io/annonatate/annotations/mc00084-001-te0159-000-001-0001-list.json'></iiif-storyboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
         }
     ]
 }
