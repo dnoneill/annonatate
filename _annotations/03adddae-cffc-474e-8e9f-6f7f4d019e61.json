@@ -1,0 +1,33 @@
+---
+canvas: "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "target": {
+        "source": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"18223.232421875,9174.375 18461.77734375,9080.06640625 18500.611328125,9191.017578125 18278.708984375,9252.041015625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "created": "2021-06-30T16:29:31.197Z",
+            "value": "293",
+            "purpose": "describing",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-06-30T16:29:47.231Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/03adddae-cffc-474e-8e9f-6f7f4d019e61.json"
+}
