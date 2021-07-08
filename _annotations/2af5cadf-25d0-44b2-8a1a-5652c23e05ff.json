@@ -1,0 +1,33 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00240-001-ff0093-001-001_0010"
+order: 1
+---
+{
+    "type": "Annotation",
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00240-001-ff0093-001-001_0010",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1932.126708984375,977.4850463867188 1932.126708984375,1048.216552734375 1964.5452880859375,1012.8507690429688 1979.2811279296875,1021.6921997070312 2008.7525634765625,1021.6921997070312 2176.73974609375,1024.639404296875 2615.86474609375,1021.6921997070312 2822.164794921875,1015.7979125976562 2804.48193359375,974.5379028320312\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00240-001-ff0093-001-001_0010/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "created": "2021-07-08T23:00:51.913Z",
+            "value": "Barrett Specification Roof",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-07-08T23:00:59.272Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/2af5cadf-25d0-44b2-8a1a-5652c23e05ff.json"
+}
