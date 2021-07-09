@@ -1,0 +1,33 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00240-001-ff0093-001-001_0010"
+order: 3
+---
+{
+    "type": "Annotation",
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00240-001-ff0093-001-001_0010",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1584.42578125,2900.95703125 1619.79150390625,2942.217041015625 1655.1572265625,2915.69287109375 1590.320068359375,2827.2783203125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00240-001-ff0093-001-001_0010/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "created": "2021-07-09T00:33:14.925Z",
+            "value": "Ch",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-07-09T00:33:15.209Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/1cd6cc08-c7af-4fb1-8639-0cbff9bb157b.json"
+}
