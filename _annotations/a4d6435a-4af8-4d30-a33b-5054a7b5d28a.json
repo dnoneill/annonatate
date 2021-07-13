@@ -1,0 +1,29 @@
+---
+canvas: "https://iiif.bodleian.ox.ac.uk/iiif/image/467a8da6-02b6-4643-a376-4b0afaff6ab7/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "target": {
+        "source": "https://iiif.bodleian.ox.ac.uk/iiif/image/467a8da6-02b6-4643-a376-4b0afaff6ab7/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1614.43115234375,618.4176025390625 1611.198974609375,688.4469604492188 1611.198974609375,686.2921752929688 1607.9669189453125,759.5536499023438 1582.1099853515625,794.0296020507812 1584.2646484375,832.8150634765625 1638.1334228515625,832.8150634765625 1632.7464599609375,907.1539306640625 1722.1685791015625,904.9991455078125 1708.1627197265625,848.9757080078125 1806.2037353515625,818.8092041015625 1805.12646484375,773.5595092773438 1889.16162109375,753.0894165039062 1866.5367431640625,708.9170532226562 1830.9833984375,614.1080932617188\"></polygon></svg>"
+        }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "created": "2021-07-13T23:31:20.687Z",
+            "value": "Mare\nHiber\nNicv\nM",
+            "purpose": "bookmarking",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-07-13T23:32:27.237Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/a4d6435a-4af8-4d30-a33b-5054a7b5d28a.json"
+}
