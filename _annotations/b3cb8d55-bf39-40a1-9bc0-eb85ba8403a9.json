@@ -1,0 +1,30 @@
+---
+canvas: "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "venetie md",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatate",
+                "name": "Annonatate"
+            },
+            "created": "2021-08-10T11:02:23.265Z",
+            "modified": "2021-08-10T11:02:26.048Z"
+        }
+    ],
+    "target": {
+        "source": "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:12311.3408203125,2983.313720703125,2595.056640625,980.037841796875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/b3cb8d55-bf39-40a1-9bc0-eb85ba8403a9.json"
+}
