@@ -2,7 +2,7 @@
 canvas_id: "https://d.lib.ncsu.edu/collections/canvas/0002386"
 ---
 {% assign curlyend = 'l}}' %}
-{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" | replace: "{{site.ur", site.url | replace:"{{site.baseur", site.baseurl | replace: curlyend, "" | markdownify | strip_html %}
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" | replace: "{{site.ur", site.url | replace:"{{site.baseur", site.baseurl | replace: curlyend, "" | replace: "\n", "<br>"  %}
 {
 "@context": "http://iiif.io/api/presentation/2/context.json",
 "id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
