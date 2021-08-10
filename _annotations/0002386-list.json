@@ -6,4 +6,4 @@ canvas_id: "https://d.lib.ncsu.edu/collections/canvas/0002386"
 "@context": "http://iiif.io/api/presentation/2/context.json",
 "id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
 "type": "AnnotationPage",
-"resources": [{% for annotation in annotations %}{{annotation.content | jsonify}}{% endfor %}] }
+"resources": [{% for annotation in annotations %}{{annotation.content | replace: "site.url}}{{site.baseurl", "{{site.url}}{{site.baseurl}}" }}{% endfor %}] }
