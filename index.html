@@ -22,7 +22,7 @@ permalink: /
 {{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
 "manifests": [{% for manifest in manifests %}{
-{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: manifest.url| jsonify}},{{'json' | jsonify}}:{{manifest.content | jsonify}}
+{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: manifest.url| jsonify}},{{'json' | jsonify}}:{{manifest.content}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}], "images": {{imagearray| jsonify}}, 
  "preloadedcontent": {{site.data.preload | jsonify}},
 "customviews": [{% for customview in customviews %}{
