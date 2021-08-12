@@ -3,13 +3,15 @@ canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_00
 order: 1
 ---
 {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://dnoneill.github.io/annonatate/annotations/e8618718-0ab4-403e-8be2-77460c664948.json",
     "type": "Annotation",
     "target": {
         "source": "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:4373.9853515625,2689.060302734375,894.04931640625,423.982177734375"
+            "value": "xywh=pixel:4491.9130859375,2731.94287109375,894.04931640625,423.982177734375"
         },
         "dcterms:isPartOf": {
             "id": "https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json",
@@ -18,17 +20,15 @@ order: 1
     },
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "commenting",
             "created": "2021-08-10T10:35:36.284Z",
-            "value": "Harrelson",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "modified": "2021-08-10T10:35:38.264Z"
+            "modified": "2021-08-10T10:35:38.264Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Harrelson"
         }
-    ],
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "{{site.url}}{{site.baseurl}}/annotations/e8618718-0ab4-403e-8be2-77460c664948.json"
+    ]
 }
