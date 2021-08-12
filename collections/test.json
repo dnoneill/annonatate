@@ -15,6 +15,12 @@
             "title": "",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='https://dnoneill.github.io/annonatate/annotations/40-58-a6-28-4058a628-c593-463e-9736-8a821e178fee-list.json'></iiif-storyboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
         }
     ]
 }
