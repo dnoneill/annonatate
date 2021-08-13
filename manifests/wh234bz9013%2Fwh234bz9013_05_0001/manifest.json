@@ -1,8 +1,9 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://dnoneill.github.io/annonatate/manifests/wh234bz9013%252Fwh234bz9013_05_0001/manifest.json",
+  "@id": "{{ '/' | absolute_url }}manifests/wh234bz9013%252Fwh234bz9013_05_0001/manifest.json",
   "@type": "sc:Manifest",
   "label": "test upload",
   "metadata": [
@@ -24,7 +25,7 @@
           "width": 8812,
           "images": [
             {
-              "@id": "https://dnoneill.github.io/annonatate/manifests/wh234bz9013%252Fwh234bz9013_05_0001/annotation/1.json",
+              "@id": "{{ '/' | absolute_url }}manifests/wh234bz9013%252Fwh234bz9013_05_0001/annotation/1.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -40,6 +41,13 @@
                 }
               },
               "on": "https://stacks.stanford.edu/image/iiif/wh234bz9013%252Fwh234bz9013_05_0001/info.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wh234bz9013-252fwh234bz9013-05-0001-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         }
