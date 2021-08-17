@@ -4,19 +4,6 @@ order: 1
 ---
 {
     "type": "Annotation",
-    "body": [
-        {
-            "type": "TextualBody",
-            "purpose": "commenting",
-            "created": "2021-08-17T19:37:19.621Z",
-            "value": "test",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "modified": "2021-08-17T19:37:20.114Z"
-        }
-    ],
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "e5124e49-a8ac-40dd-ba96-c15a01f12924.json",
     "target": {
@@ -29,5 +16,18 @@ order: 1
             "id": "https://d.lib.ncsu.edu/collections/catalog/0002386/manifest.json",
             "type": "Manifest"
         }
-    }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "created": "2021-08-17T19:37:19.621Z",
+            "value": "test",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-08-17T19:37:20.114Z"
+        }
+    ]
 }
