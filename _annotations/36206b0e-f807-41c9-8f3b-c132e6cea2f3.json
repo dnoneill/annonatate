@@ -1,0 +1,33 @@
+---
+canvas: "https://stacks.stanford.edu/image/iiif/wh234bz9013%252Fwh234bz9013_05_0001/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "target": {
+        "source": "https://stacks.stanford.edu/image/iiif/wh234bz9013%252Fwh234bz9013_05_0001/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2894.322998046875,2407.388671875 4249.61962890625,3415.17333984375 2981.201171875,3901.68994140625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/manifests/wh234bz9013%252Fwh234bz9013_05_0001/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "created": "2021-08-17T19:42:05.221Z",
+            "value": "test",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-08-17T19:42:06.008Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "36206b0e-f807-41c9-8f3b-c132e6cea2f3.json"
+}
