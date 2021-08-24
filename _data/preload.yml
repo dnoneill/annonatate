@@ -17,3 +17,4 @@ settings:
   annotations: annotations
 vocabs: 
   - https://dnoneill.github.io/annonatate/words.txt
+  - https://dnoneill.github.io/annonatate/wikidata.json
