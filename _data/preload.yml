@@ -15,5 +15,5 @@ images:
   - https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
 settings:
   annotations: annotations
-  vocabs: 
-    - https://dnoneill.github.io/annonatate/words.txt
+vocabs: 
+  - https://dnoneill.github.io/annonatate/words.txt
