@@ -1,0 +1,9 @@
+---
+canvas_id: "https://d.lib.ncsu.edu/collections/canvas/mc00240-001-ff0093-001-001_0010"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
