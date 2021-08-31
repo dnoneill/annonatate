@@ -15,6 +15,17 @@ order: 1
             },
             "created": "2021-08-31T15:31:54.245Z",
             "modified": "2021-08-31T15:31:55.024Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "tag",
+            "purpose": "tagging",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2021-08-31T15:31:57.902Z",
+            "modified": "2021-08-31T15:31:58.130Z"
         }
     ],
     "target": {
