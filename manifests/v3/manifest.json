@@ -1,3 +1,357 @@
 ---
+layout: none
 ---
-{"@context":"http://iiif.io/api/presentation/3/context.json","id":"https://images.imaginerio.org/iiif/3/0071824cx001-12/manifest","type":"Manifest","label":{"pt-br":["PÃ£o de AÃ§Ãºcar visto de NiterÃ³i"]},"metadata":[{"label":{"none":["Identifier"]},"value":{"none":["0071824cx001-12"]}},{"label":{"pt-br":["Title"]},"value":{"pt-br":["PÃ£o de AÃ§Ãºcar visto de NiterÃ³i"]}},{"label":{"pt-br":["Description"]},"value":{"pt-br":["Morro do PÃ£o de AÃ§Ãºcar e morro da Urca vistos a partir de NiterÃ³i."]}},{"label":{"none":["Creator"]},"value":{"none":["Marc Ferrez"]}},{"label":{"none":["Date"]},"value":{"none":["1890 circa"]}},{"label":{"none":["Type"]},"value":{"none":["<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q125191\">Photograph</a>","<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q125191\">Fotografia</a>"]}},{"label":{"none":["Format"]},"value":{"none":["<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q85621807\">Negativo de vidro</a>","<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q85621807\">Glass plate negative</a>"]}},{"label":{"none":["Process"]},"value":{"none":["<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q172984\">Gelatina de prata</a>","<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q172984\">Silver gelatin</a>"]}},{"label":{"none":["Width (mm)"]},"value":{"none":["240"]}},{"label":{"none":["Height (mm)"]},"value":{"none":["180"]}},{"label":{"none":["Attribution"]},"value":{"none":["-"]}},{"label":{"none":["Rights"]},"value":{"none":["<a class=\"uri-value-link\" target=\"_blank\" href=\"-\">-</a>"]}},{"label":{"none":["Depicts"]},"value":{"none":["<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;www.wikidata.org&#x2F;entity&#x2F;Q224101\">BaÃ­a de Guanabara</a>"]}}],"summary":{"pt-br":["Morro do PÃ£o de AÃ§Ãºcar e morro da Urca vistos a partir de NiterÃ³i."]},"requiredStatement":{"label":{"none":["Attribution"]},"value":{"none":["-"]}},"rights":"https://rightsstatements.org/page/CNE/1.0/","thumbnail":[{"id":"https://images.imaginerio.org/files/medium/285a17678931eff41d4ae695292cd722d0b1cd08.jpg","type":"Image","format":"image/jpeg","width":200,"height":150}],"viewingDirection":"left-to-right","seeAlso":[{"id":"https://images.imaginerio.org/api/items/7871","type":"Dataset","label":{"none":["application/ld+json"]},"format":"application/ld+json","profile":"https://images.imaginerio.org/api-context"}],"homepage":[{"id":"http://acervos.ims.com.br/portals/#/detailpage/66447","type":"Text","label":{"none":["Instituto Moreira Salles"]},"format":"text/html","language":["none"]}],"logo":[{"id":"https://aws1.discourse-cdn.com/free1/uploads/imaginerio/original/1X/8c4f71106b4c8191ffdcafb4edeedb6f6f58b482.png","type":"Image","format":"image/png","height":164,"width":708}],"items":[{"@context":"http://iiif.io/api/presentation/3/context.json","id":"https://images.imaginerio.org/iiif/3/0071824cx001-12/canvas/8572","type":"Canvas","label":{"none":["1"]},"metadata":[{"label":{"none":["Identifier"]},"value":{"none":["0071824cx001-12"]}}],"requiredStatement":{"label":{"none":["Attribution"]},"value":{"none":["Hosted by imagineRio"]}},"rights":"https://rightsstatements.org/page/CNE/1.0/","height":7117,"width":9462,"items":[{"id":"https://images.imaginerio.org/iiif/3/0071824cx001-12/annotation-page/8572","type":"AnnotationPage","items":[{"id":"https://images.imaginerio.org/iiif/3/0071824cx001-12/annotation/8572","type":"Annotation","motivation":"painting","body":{"id":"https://images.imaginerio.org/iiif-img/3/0071824cx001-12/full/800,602/0/default.jpg","type":"Image","format":"image/jpeg","service":[{"id":"https://images.imaginerio.org/iiif-img/2/0071824cx001-12","type":"ImageService2","profile":"level2","tiles":[{"width":256,"scaleFactors":[1,2,4,8,16,32,64]}],"height":7117,"width":9462},{"id":"https://images.imaginerio.org/iiif-img/3/0071824cx001-12","type":"ImageService3","profile":"level2","tiles":[{"width":256,"scaleFactors":[1,2,4,8,16,32,64]}],"height":7117,"width":9462}],"height":7117,"width":9462},"target":"https://images.imaginerio.org/iiif/3/0071824cx001-12/canvas/8572","label":{"none":["[Untitled]"]}}]}]}]}
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://images.imaginerio.org/iiif/3/0071824cx001-12/manifest",
+  "type": "Manifest",
+  "label": {
+    "pt-br": [
+      "PÃ£o de AÃ§Ãºcar visto de NiterÃ³i"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Identifier"
+        ]
+      },
+      "value": {
+        "none": [
+          "0071824cx001-12"
+        ]
+      }
+    },
+    {
+      "label": {
+        "pt-br": [
+          "Title"
+        ]
+      },
+      "value": {
+        "pt-br": [
+          "PÃ£o de AÃ§Ãºcar visto de NiterÃ³i"
+        ]
+      }
+    },
+    {
+      "label": {
+        "pt-br": [
+          "Description"
+        ]
+      },
+      "value": {
+        "pt-br": [
+          "Morro do PÃ£o de AÃ§Ãºcar e morro da Urca vistos a partir de NiterÃ³i."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creator"
+        ]
+      },
+      "value": {
+        "none": [
+          "Marc Ferrez"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1890 circa"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Type"
+        ]
+      },
+      "value": {
+        "none": [
+          "<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q125191\">Photograph</a>",
+          "<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q125191\">Fotografia</a>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Format"
+        ]
+      },
+      "value": {
+        "none": [
+          "<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q85621807\">Negativo de vidro</a>",
+          "<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q85621807\">Glass plate negative</a>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Process"
+        ]
+      },
+      "value": {
+        "none": [
+          "<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q172984\">Gelatina de prata</a>",
+          "<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;wikidata.org&#x2F;wiki&#x2F;Q172984\">Silver gelatin</a>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Width (mm)"
+        ]
+      },
+      "value": {
+        "none": [
+          "240"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Height (mm)"
+        ]
+      },
+      "value": {
+        "none": [
+          "180"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Attribution"
+        ]
+      },
+      "value": {
+        "none": [
+          "-"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "<a class=\"uri-value-link\" target=\"_blank\" href=\"-\">-</a>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Depicts"
+        ]
+      },
+      "value": {
+        "none": [
+          "<a class=\"uri-value-link\" target=\"_blank\" href=\"http&#x3A;&#x2F;&#x2F;www.wikidata.org&#x2F;entity&#x2F;Q224101\">BaÃ­a de Guanabara</a>"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "pt-br": [
+      "Morro do PÃ£o de AÃ§Ãºcar e morro da Urca vistos a partir de NiterÃ³i."
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "none": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "none": [
+        "-"
+      ]
+    }
+  },
+  "rights": "https://rightsstatements.org/page/CNE/1.0/",
+  "thumbnail": [
+    {
+      "id": "https://images.imaginerio.org/files/medium/285a17678931eff41d4ae695292cd722d0b1cd08.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "width": 200,
+      "height": 150
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://images.imaginerio.org/api/items/7871",
+      "type": "Dataset",
+      "label": {
+        "none": [
+          "application/ld+json"
+        ]
+      },
+      "format": "application/ld+json",
+      "profile": "https://images.imaginerio.org/api-context"
+    }
+  ],
+  "homepage": [
+    {
+      "id": "http://acervos.ims.com.br/portals/#/detailpage/66447",
+      "type": "Text",
+      "label": {
+        "none": [
+          "Instituto Moreira Salles"
+        ]
+      },
+      "format": "text/html",
+      "language": [
+        "none"
+      ]
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://images.imaginerio.org/iiif/3/0071824cx001-12/canvas/8572",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "1"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Identifier"
+            ]
+          },
+          "value": {
+            "none": [
+              "0071824cx001-12"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "none": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "none": [
+            "Hosted by imagineRio"
+          ]
+        }
+      },
+      "rights": "https://rightsstatements.org/page/CNE/1.0/",
+      "height": 7117,
+      "width": 9462,
+      "items": [
+        {
+          "id": "https://images.imaginerio.org/iiif/3/0071824cx001-12/annotation-page/8572",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://images.imaginerio.org/iiif/3/0071824cx001-12/annotation/8572",
+              "type": "Annotation",
+              "label": {
+                "none": [
+                  "[Untitled]"
+                ]
+              },
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.imaginerio.org/iiif-img/3/0071824cx001-12/full/800,602/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://images.imaginerio.org/iiif-img/2/0071824cx001-12",
+                    "type": "ImageService2",
+                    "profile": "level2",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "height": 7117,
+                    "width": 9462
+                  },
+                  {
+                    "id": "https://images.imaginerio.org/iiif-img/3/0071824cx001-12",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "height": 7117,
+                    "width": 9462
+                  }
+                ],
+                "height": 7117,
+                "width": 9462
+              },
+              "target": "https://images.imaginerio.org/iiif/3/0071824cx001-12/canvas/8572"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/3-0071824cx001-12-8572-list.json",
+          "type": "Annotation",
+          "target": "https://images.imaginerio.org/iiif/3/0071824cx001-12/canvas/8572"
+        }
+      ],
+      "@context": "http://iiif.io/api/presentation/3/context.json"
+    }
+  ],
+  "logo": [
+    {
+      "id": "https://aws1.discourse-cdn.com/free1/uploads/imaginerio/original/1X/8c4f71106b4c8191ffdcafb4edeedb6f6f58b482.png",
+      "type": "Image",
+      "format": "image/png",
+      "height": 164,
+      "width": 708
+    }
+  ]
+}
