@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://dnoneill.github.io/annonatate/00",
+  "@id": "https://dnoneill.github.io/annonatate/image/derivatives/00",
   "height": 7500,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
