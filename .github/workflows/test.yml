@@ -11,9 +11,9 @@ jobs:
       - name: ls
         run: ls
       - name: install
-        run: pip install iiif
+        run: pip3 install iiif
       - name: install Pillow
-        run: pip install Pillow
+        run: pip3 install Pillow
       - name: ls
         run: ls
       - name: list python libraries
