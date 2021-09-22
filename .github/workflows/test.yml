@@ -16,8 +16,10 @@ jobs:
         run: pip install Pillow
       - name: ls
         run: ls
+      - name: list python libraries
+        run: pip list
       - name: run iiif
-        run: iiif_static.py "images" -p "https://test.com" -d "test"
+        run: ./iiif_static.py "images" -p "https://test.com" -d "test"
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
