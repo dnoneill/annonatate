@@ -19,7 +19,7 @@ jobs:
       - name: list python libraries
         run: pip list
       - name: run iiif
-        run: iiif "images" -p "https://test.com" -d "test"
+        run: IIIFStatic -c 'from iiif.static import IIIFStatic\nsg = IIIFStatic(prefix="https://test.com", dst="test")\nsg.generate("images")'
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
