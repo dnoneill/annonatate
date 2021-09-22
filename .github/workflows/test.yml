@@ -19,7 +19,7 @@ jobs:
       - name: list python libraries
         run: pip list
       - name: run iiif
-        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate", dst="image/derivatives");sg.generate("00.jpg")'
+        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/image/derivatives", dst="image/derivatives");sg.generate("00.jpg")'
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
