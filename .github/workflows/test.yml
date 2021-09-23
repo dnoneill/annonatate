@@ -8,20 +8,14 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 1
-      - name: ls
-        run: ls
-      - name: install
-        run: pip3 install iiif
       - name: install
         run: pip3 install iiif
       - name: install Pillow
         run: pip3 install Pillow
-      - name: ls
-        run: ls
-      - name: list python libraries
-        run: pip list
       - name: run iiif
         run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("00.jpg"); print(sggenerate)'
+      - name: cp to full
+        run: cp 00.jpg images/full/full/default.jpg
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
