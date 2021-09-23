@@ -15,7 +15,7 @@ jobs:
       - name: run iiif
         run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("00.jpg"); print(sggenerate)'
       - name: cp to full
-        run: cp 00.jpg images/full/full/default.jpg
+        run: cp 00.jpg img/derivatives/iiif/00/full/full/0/default.jpg
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
