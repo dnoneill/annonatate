@@ -1,0 +1,30 @@
+---
+canvas: "https://dnoneill.github.io/annonatate/image/derivatives/00/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2021-09-23T20:56:07.526Z",
+            "modified": "2021-09-23T20:56:07.911Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/annonatate/image/derivatives/00/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:2108.110595703125,2728.187744140625,1187.91943359375,765.1005859375"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/4561893f-7f89-4bb4-9990-2a4405127157.json"
+}
