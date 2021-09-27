@@ -17,21 +17,21 @@ jobs:
       - name: convert
         run: convert images/ScreenShot2020-05-14at3.15.28PM.png images/ScreenShot2020-05-14at3.15.28PM.jpg
       - name: run iiif
-        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/images/ScreenShot2020-05-14at3.15.28PM.jpg"); print(sggenerate)'
+        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/ScreenShot2020-05-14at3.15.28PM.jpg"); print(sggenerate)'
       - name: create dir
         run: cd img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full && mkdir full && cd full && mkdir ScreenShot2020-05-14at3.15.28PM
       - name: cp to full
-        run: cp images/images/ScreenShot2020-05-14at3.15.28PM.jpg img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full/full/0/default.jpg
+        run: cp images/ScreenShot2020-05-14at3.15.28PM.jpg img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full/full/0/default.jpg
       - name: imagemagick
         run: sudo apt install imagemagick
       - name: convert
         run: convert images/vagrantissue.png images/vagrantissue.jpg
       - name: run iiif
-        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/images/vagrantissue.jpg"); print(sggenerate)'
+        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/vagrantissue.jpg"); print(sggenerate)'
       - name: create dir
         run: cd img/derivatives/iiif/vagrantissue/full && mkdir full && cd full && mkdir vagrantissue
       - name: cp to full
-        run: cp images/images/vagrantissue.jpg img/derivatives/iiif/vagrantissue/full/full/0/default.jpg
+        run: cp images/vagrantissue.jpg img/derivatives/iiif/vagrantissue/full/full/0/default.jpg
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
