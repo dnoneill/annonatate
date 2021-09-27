@@ -12,6 +12,8 @@ jobs:
         run: pip3 install iiif
       - name: install Pillow
         run: pip3 install Pillow
+      - name: imagemagick
+        run: sudo apt install imagemagick
       - name: convert
         run: magick convert ScreenShot2020-05-14at3.15.28PM.png ScreenShot2020-05-14at3.15.28PM.jpg
       - name: run iiif
@@ -20,6 +22,8 @@ jobs:
         run: cd img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full && mkdir full && cd full && mkdir ScreenShot2020-05-14at3.15.28PM
       - name: cp to full
         run: cp images/ScreenShot2020-05-14at3.15.28PM.png img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full/full/0/default.jpg
+      - name: imagemagick
+        run: sudo apt install imagemagick
       - name: convert
         run: magick convert vagrantissue.png vagrantissue.jpg
       - name: run iiif
