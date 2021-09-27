@@ -13,16 +13,16 @@ jobs:
       - name: install Pillow
         run: pip3 install Pillow
       - name: run iiif
-  run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("Screen Shot 2020-05-14 at 3.15.28 PM.png"); print(sggenerate)'
-- name: create dir
-  run: cd img/derivatives/iiif/Screen Shot 2020-05-14 at 3.15.28 PM/full && mkdir full && cd full && mkdir Screen Shot 2020-05-14 at 3.15.28 PM
-- name: cp to full
-  run: cp Screen Shot 2020-05-14 at 3.15.28 PM.png img/derivatives/iiif/Screen Shot 2020-05-14 at 3.15.28 PM/full/full/0/default.jpg- name: run iiif
-  run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("vagrant issue.png"); print(sggenerate)'
-- name: create dir
-  run: cd img/derivatives/iiif/vagrant issue/full && mkdir full && cd full && mkdir vagrant issue
-- name: cp to full
-  run: cp vagrant issue.png img/derivatives/iiif/vagrant issue/full/full/0/default.jpg
+        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("Screen Shot 2020-05-14 at 3.15.28 PM.png"); print(sggenerate)'
+      - name: create dir
+        run: cd img/derivatives/iiif/Screen Shot 2020-05-14 at 3.15.28 PM/full && mkdir full && cd full && mkdir Screen Shot 2020-05-14 at 3.15.28 PM
+      - name: cp to full
+        run: cp Screen Shot 2020-05-14 at 3.15.28 PM.png img/derivatives/iiif/Screen Shot 2020-05-14 at 3.15.28 PM/full/full/0/default.jpg      - name: run iiif
+        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("vagrant issue.png"); print(sggenerate)'
+      - name: create dir
+        run: cd img/derivatives/iiif/vagrant issue/full && mkdir full && cd full && mkdir vagrant issue
+      - name: cp to full
+        run: cp vagrant issue.png img/derivatives/iiif/vagrant issue/full/full/0/default.jpg
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
