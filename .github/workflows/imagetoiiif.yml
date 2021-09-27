@@ -8,24 +8,22 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 1
-      - name: ls
-        run: ls
       - name: install
         run: pip3 install iiif
       - name: install Pillow
         run: pip3 install Pillow
       - name: run iiif
-        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("ScreenShot2020-05-14at3.15.28PM.png"); print(sggenerate)'
+        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/ScreenShot2020-05-14at3.15.28PM.png"); print(sggenerate)'
       - name: create dir
         run: cd img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full && mkdir full && cd full && mkdir ScreenShot2020-05-14at3.15.28PM
       - name: cp to full
-        run: cp ScreenShot2020-05-14at3.15.28PM.png img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full/full/0/default.jpg
+        run: cp images/ScreenShot2020-05-14at3.15.28PM.png img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full/full/0/default.jpg
       - name: run iiif
-        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("vagrantissue.png"); print(sggenerate)'
+        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/vagrantissue.png"); print(sggenerate)'
       - name: create dir
         run: cd img/derivatives/iiif/vagrantissue/full && mkdir full && cd full && mkdir vagrantissue
       - name: cp to full
-        run: cp vagrantissue.png img/derivatives/iiif/vagrantissue/full/full/0/default.jpg
+        run: cp images/vagrantissue.png img/derivatives/iiif/vagrantissue/full/full/0/default.jpg
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
