@@ -15,7 +15,7 @@ jobs:
       - name: imagemagick
         run: sudo apt install imagemagick
       - name: convert
-        run: magick convert ScreenShot2020-05-14at3.15.28PM.png ScreenShot2020-05-14at3.15.28PM.jpg
+        run: convert ScreenShot2020-05-14at3.15.28PM.png ScreenShot2020-05-14at3.15.28PM.jpg
       - name: run iiif
         run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/ScreenShot2020-05-14at3.15.28PM.png"); print(sggenerate)'
       - name: create dir
@@ -25,7 +25,7 @@ jobs:
       - name: imagemagick
         run: sudo apt install imagemagick
       - name: convert
-        run: magick convert vagrantissue.png vagrantissue.jpg
+        run: convert vagrantissue.png vagrantissue.jpg
       - name: run iiif
         run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/vagrantissue.png"); print(sggenerate)'
       - name: create dir
