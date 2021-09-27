@@ -12,12 +12,16 @@ jobs:
         run: pip3 install iiif
       - name: install Pillow
         run: pip3 install Pillow
+      - name: convert
+      run: magick convert ScreenShot2020-05-14at3.15.28PM.png ScreenShot2020-05-14at3.15.28PM.jpg
       - name: run iiif
         run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/ScreenShot2020-05-14at3.15.28PM.png"); print(sggenerate)'
       - name: create dir
         run: cd img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full && mkdir full && cd full && mkdir ScreenShot2020-05-14at3.15.28PM
       - name: cp to full
         run: cp images/ScreenShot2020-05-14at3.15.28PM.png img/derivatives/iiif/ScreenShot2020-05-14at3.15.28PM/full/full/0/default.jpg
+      - name: convert
+      run: magick convert vagrantissue.png vagrantissue.jpg
       - name: run iiif
         run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/vagrantissue.png"); print(sggenerate)'
       - name: create dir
