@@ -15,23 +15,13 @@ jobs:
       - name: imagemagick
         run: sudo apt install imagemagick
       - name: convert
-        run: convert images/2020903KMS1898.jpeg images/2020903KMS1898.jpg
+        run: convert images/vagrantissue.png images/vagrantissue.jpg
       - name: run iiif
-        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/2020903KMS1898.jpg"); print(sggenerate)'
+        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/vagrantissue.jpg"); print(sggenerate)'
       - name: create dir
-        run: cd img/derivatives/iiif/2020903KMS1898/full && mkdir full && cd full && mkdir 0
+        run: cd img/derivatives/iiif/vagrantissue/full && mkdir full && cd full && mkdir 0
       - name: cp to full
-        run: cp images/2020903KMS1898.jpg img/derivatives/iiif/2020903KMS1898/full/full/0/default.jpg
-      - name: imagemagick
-        run: sudo apt install imagemagick
-      - name: convert
-        run: convert images/AllSchoolDaySchedule.jpeg images/AllSchoolDaySchedule.jpg
-      - name: run iiif
-        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/AllSchoolDaySchedule.jpg"); print(sggenerate)'
-      - name: create dir
-        run: cd img/derivatives/iiif/AllSchoolDaySchedule/full && mkdir full && cd full && mkdir 0
-      - name: cp to full
-        run: cp images/AllSchoolDaySchedule.jpg img/derivatives/iiif/AllSchoolDaySchedule/full/full/0/default.jpg
+        run: cp images/vagrantissue.jpg img/derivatives/iiif/vagrantissue/full/full/0/default.jpg
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
