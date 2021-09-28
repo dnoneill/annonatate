@@ -18,6 +18,8 @@ jobs:
         run: convert images/ScreenShot20200514at31528PM.png images/ScreenShot20200514at31528PM.jpg
       - name: run iiif
         run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/ScreenShot20200514at31528PM.jpg"); print(sggenerate)'
+      - name: ls
+        run: ls img/derivatives/iiif/
       - name: create dir
         run: cd img/derivatives/iiif/ScreenShot20200514at31528PM/full && mkdir full && cd full && mkdir ScreenShot20200514at31528PM
       - name: cp to full
