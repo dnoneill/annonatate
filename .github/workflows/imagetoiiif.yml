@@ -12,6 +12,8 @@ jobs:
         run: pip3 install iiif
       - name: install Pillow
         run: pip3 install Pillow
+      - name: pull
+        run: git pull origin
       - name: imagemagick
         run: sudo apt install imagemagick
       - name: convert
