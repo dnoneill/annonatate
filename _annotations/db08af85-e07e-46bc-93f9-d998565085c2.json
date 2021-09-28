@@ -1,0 +1,30 @@
+---
+canvas: "https://dnoneill.github.io/annonatate/images/vagrant issue.png"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "vagrant ssh",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2021-09-28T21:56:33.888Z",
+            "modified": "2021-09-28T21:56:35.383Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/annonatate/images/vagrant issue.png",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:92.59403991699219,284.1362609863281,237.03416442871094,63.16180419921875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "db08af85-e07e-46bc-93f9-d998565085c2.json"
+}
