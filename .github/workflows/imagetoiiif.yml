@@ -15,13 +15,13 @@ jobs:
       - name: imagemagick
         run: sudo apt install imagemagick
       - name: convert
-        run: convert images/ScreenShot20200323at63305PM.png images/ScreenShot20200323at63305PM.jpg
+        run: convert images/annonatateposter.jpg images/annonatateposter.jpg
       - name: run iiif
-        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/ScreenShot20200323at63305PM.jpg"); print(sggenerate)'
+        run: python3 -c 'from iiif.static import IIIFStatic;sg = IIIFStatic(prefix="https://dnoneill.github.io/annonatate/img/derivatives/iiif", dst="img/derivatives/iiif");sggenerate = sg.generate("images/annonatateposter.jpg"); print(sggenerate)'
       - name: create dir
-        run: cd img/derivatives/iiif/ScreenShot20200323at63305PM/full && mkdir full && cd full && mkdir 0
+        run: cd img/derivatives/iiif/annonatateposter/full && mkdir full && cd full && mkdir 0
       - name: cp to full
-        run: cp images/ScreenShot20200323at63305PM.jpg img/derivatives/iiif/ScreenShot20200323at63305PM/full/full/0/default.jpg
+        run: cp images/annonatateposter.jpg img/derivatives/iiif/annonatateposter/full/full/0/default.jpg
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
