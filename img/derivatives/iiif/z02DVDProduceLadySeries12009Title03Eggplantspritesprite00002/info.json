@@ -1,0 +1,65 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/z02DVDProduceLadySeries12009Title03Eggplantspritesprite00002",
+  "height": 321,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 161,
+      "width": 320
+    },
+    {
+      "height": 80,
+      "width": 160
+    },
+    {
+      "height": 40,
+      "width": 80
+    },
+    {
+      "height": 20,
+      "width": 40
+    },
+    {
+      "height": 10,
+      "width": 20
+    },
+    {
+      "height": 5,
+      "width": 10
+    },
+    {
+      "height": 3,
+      "width": 5
+    },
+    {
+      "height": 1,
+      "width": 3
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1
+      ],
+      "width": 512
+    }
+  ],
+  "width": 640
+}
