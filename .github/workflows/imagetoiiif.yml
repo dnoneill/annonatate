@@ -12,8 +12,6 @@ jobs:
         run: pip3 install iiif
       - name: install Pillow
         run: pip3 install Pillow
-      - name: pull
-        run: git pull origin
       - name: imagemagick
         run: sudo apt install imagemagick
       - name: convert
@@ -30,7 +28,8 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -A
           git commit -m "update data" -a
-          
+      - name: pull
+        run: git pull origin main
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
