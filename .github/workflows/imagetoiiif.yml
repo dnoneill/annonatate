@@ -12,7 +12,8 @@ jobs:
         run: pip3 install iiif
       - name: install Pillow
         run: pip3 install Pillow
-f
+      - name: runscript
+        run: python3 -c "f
 r
 o
 m
@@ -884,7 +885,6 @@ g
 )
 )
 )
-;
 ;
 i
 i
@@ -2057,7 +2057,7 @@ o
 n
 "
 )
-)
+)"
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
