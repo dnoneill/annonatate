@@ -1,0 +1,66 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "test"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/ScreenShot20210928at20747PM/full/full/80,/default.jpg",
+      "type": "thumbnail"
+    }
+  ],
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "ScreenShot20210928at20747PM"
+        ]
+      },
+      "height": 580,
+      "width": 906,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/ScreenShot20210928at20747PM/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 580,
+                "width": 906,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/ScreenShot20210928at20747PM/info.json",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
