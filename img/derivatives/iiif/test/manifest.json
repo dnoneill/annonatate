@@ -16,7 +16,7 @@
   },
   "thumbnail": [
     {
-      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/ScreenShot20210928at20747PM/full/full/80,/default.jpg",
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/ScreenShot20210928at20747PM/full/80,/0/default.jpg",
       "type": "thumbnail"
     }
   ],
@@ -52,7 +52,7 @@
                 "width": 906,
                 "service": [
                   {
-                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/ScreenShot20210928at20747PM/info.json",
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/ScreenShot20210928at20747PM",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
