@@ -16,7 +16,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "images/vagrantissue.jpg"
+          "vagrantissue"
         ]
       },
       "height": 812,
@@ -31,14 +31,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/manifestplaceholder/full/full/0/default.jpg",
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/manifestplaceholder/vagrantissue/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 812,
                 "width": 1272,
                 "service": [
                   {
-                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/manifestplaceholder/",
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/manifestplaceholder/vagrantissue",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
