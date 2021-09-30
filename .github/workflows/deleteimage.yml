@@ -9,7 +9,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: delete
-        run: rm -r img/derivatives/iiif/horsesporch
+        run: rm -r img/derivatives/iiif/horses
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
