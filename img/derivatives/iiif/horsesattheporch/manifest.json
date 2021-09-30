@@ -1,8 +1,9 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -34,7 +35,7 @@
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/canvas/p1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/canvas/p1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -43,7 +44,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorch/full/158,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorch/full/158,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -51,35 +52,42 @@
       "width": 5057,
       "items": [
         {
-          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorch/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorch/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4167,
                 "width": 5057,
                 "service": [
                   {
-                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorch",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorch",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/canvas/p1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/canvas/p1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/p1-list.json",
+          "type": "Annotation",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/canvas/p1"
         }
       ]
     },
     {
-      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/canvas/p2",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/canvas/p2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -88,7 +96,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorchFXD/full/172,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorchFXD/full/172,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -96,30 +104,37 @@
       "width": 5497,
       "items": [
         {
-          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/page/p2/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/annotation/p0002-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorchFXD/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorchFXD/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4529,
                 "width": 5497,
                 "service": [
                   {
-                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorchFXD",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/AdamAlbrechtHorsesatthePorchFXD",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/horsesattheporch/canvas/p2"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/canvas/p2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/p2-list.json",
+          "type": "Annotation",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/horsesattheporch/canvas/p2"
         }
       ]
     }
