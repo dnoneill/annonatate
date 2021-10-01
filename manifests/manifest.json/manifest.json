@@ -1,0 +1,32 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8181/p3/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Untitled Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://localhost:8181/p3/manifest.json/canvas/ab8a7fe9-8c93-9729-1c9a-81726e5104a5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "items": [
+        {
+          "id": "http://localhost:8181/p3/manifest.json/list/7dbbe43d-5dec-b80f-516c-ff77b3f32b39",
+          "type": "AnnotationPage",
+          "items": []
+        }
+      ]
+    }
+  ]
+}
