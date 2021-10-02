@@ -1,0 +1,53 @@
+---
+---
+{
+  "attribution": "Provided by Harvard University",
+  "license": "https://nrs.harvard.edu/urn-3:HUL.eother:idscopyright",
+  "sequences": [
+    {
+      "canvases": [
+        {
+          "label": "Harvard University, Harvard Map Collection, G7960_1801_N35",
+          "width": 8973,
+          "@type": "sc:Canvas",
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/38847172"
+                },
+                "format": "image/jpeg",
+                "height": 6169,
+                "width": 8973,
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/38847172/full/full/0/default.jpg",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json",
+              "motivation": "sc:painting",
+              "@id": "https://iiif.lib.harvard.edu/manifests/ids:38847172/annotation/anno-38847172.json",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "height": 6169,
+          "@id": "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json",
+          "thumbnail": {
+            "@id": "https://ids.lib.harvard.edu/ids/iiif/38847172/full/,150/0/default.jpg",
+            "@type": "dctypes:Image"
+          }
+        }
+      ],
+      "viewingHint": "individuals",
+      "startCanvas": "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json",
+      "label": "Harvard University, Harvard Map Collection, G7960_1801_N35",
+      "@id": "https://iiif.lib.harvard.edu/manifests/ids:38847172/sequence/normal.json",
+      "@type": "sc:Sequence"
+    }
+  ],
+  "label": "Harvard University, Harvard Map Collection, G7960_1801_N35",
+  "logo": "https://iiif.lib.harvard.edu/static/manifests/harvard_logo.jpg",
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.lib.harvard.edu/manifests/ids:38847172",
+  "@type": "sc:Manifest"
+}
