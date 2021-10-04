@@ -1,0 +1,33 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Test on ipad",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2021-10-04T23:15:58.330Z",
+            "modified": "2021-10-04T23:16:03.749Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2265.5400390625,-144.2758026123047 3371.149169921875,239.17245483398438 3364.758544921875,239.17245483398438 1549.77001953125,443.6781921386719 1511.4251708984375,475.6322021484375 1632.8504638671875,360.5977478027344 1588.1148681640625,392.5517578125 1594.505615234375,430.8965759277344 1600.896484375,469.24139404296875 1709.5401611328125,373.37933349609375 1901.2642822265625,-361.5631408691406 1894.8734130859375,-367.9539489746094 1901.2642822265625,-406.29876708984375 1613.6781005859375,-732.2297973632812 1581.7239990234375,-706.6665649414062 2636.206787109375,-751.4022216796875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "142dfe43-b2a3-490d-971d-6e2dc0650a31.json"
+}
