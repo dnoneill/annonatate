@@ -1,23 +1,11 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://dnoneill.github.io/annonatate/manifests/purl.stanford.edu/wh234bz9013/iiif/manifest.json",
+  "@id": "{{ '/' | absolute_url }}manifests/purl.stanford.edu/wh234bz9013/iiif/manifest.json",
   "@type": "sc:Manifest",
   "label": "H\u00c6MISPH\u00c6RIUM STELLATVM BOREALE CVM SUBIECTO H\u00c6MISPH\u00c6RO TERRESTRI.",
-  "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
-  "logo": {
-    "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137%2FSULAIR_rosette/full/400,/0/default.jpg",
-    "service": {
-      "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137%2FSULAIR_rosette",
-      "profile": "http://iiif.io/api/image/2/level2.json"
-    }
-  },
-  "seeAlso": {
-    "@id": "https://purl.stanford.edu/wh234bz9013.mods",
-    "format": "application/mods+xml"
-  },
   "metadata": [
     {
       "label": "Available Online",
@@ -117,13 +105,26 @@
     "@id": "https://stacks.stanford.edu/image/iiif/wh234bz9013%2Fwh234bz9013_05_0001/full/!400,400/0/default.jpg",
     "@type": "dctypes:Image",
     "format": "image/jpeg",
+    "height": 347,
+    "width": 400,
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
       "@id": "https://stacks.stanford.edu/image/iiif/wh234bz9013%2Fwh234bz9013_05_0001",
       "profile": "http://iiif.io/api/image/2/level2.json"
-    },
-    "width": 400,
-    "height": 347
+    }
+  },
+  "attribution": "This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.",
+  "logo": {
+    "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137%2FSULAIR_rosette/full/400,/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://stacks.stanford.edu/image/iiif/wy534zh7137%2FSULAIR_rosette",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "seeAlso": {
+    "@id": "https://purl.stanford.edu/wh234bz9013.mods",
+    "format": "application/mods+xml"
   },
   "sequences": [
     {
@@ -136,8 +137,6 @@
           "@id": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/wh234bz9013_1",
           "@type": "sc:Canvas",
           "label": "0001",
-          "height": 7647,
-          "width": 8812,
           "rendering": [
             {
               "@id": "https://stacks.stanford.edu/file/wh234bz9013/wh234bz9013_05_0001.jp2",
@@ -145,6 +144,8 @@
               "format": "image/jp2"
             }
           ],
+          "height": 7647,
+          "width": 8812,
           "images": [
             {
               "@id": "https://purl.stanford.edu/wh234bz9013/iiif/annotation/wh234bz9013_1",
@@ -163,6 +164,13 @@
                 }
               },
               "on": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/wh234bz9013_1"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/wh234bz9013-wh234bz9013-1-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         }
