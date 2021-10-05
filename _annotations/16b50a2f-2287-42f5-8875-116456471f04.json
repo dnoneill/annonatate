@@ -1,0 +1,33 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Test polygon ipad",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2021-10-05T22:22:27.139Z",
+            "modified": "2021-10-05T22:22:32.119Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2376.54541015625,1545 2292.908935546875,1728.6363525390625 2288.363525390625,1734.0908203125 2602.908935546875,1598.6363525390625 2599.272705078125,1596.818115234375 2592.908935546875,1591.3636474609375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "16b50a2f-2287-42f5-8875-116456471f04.json"
+}
