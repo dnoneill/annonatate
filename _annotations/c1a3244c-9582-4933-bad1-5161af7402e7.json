@@ -7,14 +7,14 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "test",
+            "value": "test uploaded manifest",
             "purpose": "commenting",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
             "created": "2021-10-05T19:53:59.530Z",
-            "modified": "2021-10-05T19:53:59.916Z"
+            "modified": "2021-10-05T19:54:29.525Z"
         }
     ],
     "target": {
