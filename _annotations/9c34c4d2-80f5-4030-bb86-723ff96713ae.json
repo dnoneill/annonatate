@@ -1,0 +1,34 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Phone test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2021-10-05T21:57:49.552Z",
+            "modified": "2021-10-05T21:57:53.106Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:4268.81201171875,1037.7200927734375,699.376953125,414.983154296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9c34c4d2-80f5-4030-bb86-723ff96713ae.json"
+}
