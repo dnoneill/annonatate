@@ -2,7 +2,7 @@
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://d.lib.ncsu.edu/collections/catalog/0002386/manifest",
+  "@id": "https://dnoneill.github.io/annonatate/manifests/d.lib.ncsu.edu/collections/catalog/0002386/manifest.json",
   "@type": "sc:Manifest",
   "label": "Aerial view of University Plaza (the Brickyard)",
   "description": "The Brickyard (officially named University Plaza) was constructed during 1967 to 1969.  The original purpose for the Plaza was to cover the dirt and mud that resulted from the high level of construction going on during the 1950s and 1960s on North campus.  Today, it serves as a central gathering area on NC State's campus.",
