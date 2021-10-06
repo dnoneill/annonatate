@@ -17,6 +17,6 @@ settings:
 - ''
 vocab:
 - test label no uri
-- '{''label'': ''label with uri'', ''uri'': ''uri''}'
+- {'label': 'label with uri', 'uri': 'uri'}
 vocabs:
 - ''
