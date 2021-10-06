@@ -3,40 +3,40 @@ canvas: "https://dnoneill.github.io/annonatate/images/ScreenShot20200514at31528P
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "label with uri",
-            "purpose": "tagging",
+            "created": "2021-10-06T15:35:05.874Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2021-10-06T15:35:05.874Z",
             "modified": "2021-10-06T15:35:07.037Z",
-            "source": "uri"
+            "purpose": "tagging",
+            "source": "uri",
+            "type": "TextualBody",
+            "value": "label with uri"
         },
         {
-            "type": "TextualBody",
-            "value": "test label no uri",
-            "purpose": "tagging",
+            "created": "2021-10-06T15:35:10.520Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2021-10-06T15:35:10.520Z",
-            "modified": "2021-10-06T15:35:26.645Z"
+            "modified": "2021-10-06T15:35:26.645Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "test label no uri"
         }
     ],
+    "id": "9d963c60-3b90-4205-a71b-9cc3ef865104.json",
     "target": {
-        "source": "https://dnoneill.github.io/annonatate/images/ScreenShot20200514at31528PM.jpg",
         "selector": {
-            "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
             "value": "xywh=pixel:248.80970764160156,11.412951469421387,312.87449645996094,61.0850191116333"
-        }
+        },
+        "source": "https://dnoneill.github.io/annonatate/images/ScreenShot20200514at31528PM.jpg"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9d963c60-3b90-4205-a71b-9cc3ef865104.json"
+    "type": "Annotation"
 }
