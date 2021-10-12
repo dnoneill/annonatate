@@ -1,0 +1,34 @@
+---
+canvas: "https://dnoneill.github.io/annonatate/img/derivatives/iiif/13maps/canvas/13maps-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "backcover",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2021-10-12T16:44:15.959Z",
+            "modified": "2021-10-12T16:44:19.414Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/13maps/canvas/13maps-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:2225.035400390625,280.08160400390625,1696.80517578125,935.4181518554688"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/13maps/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bd44c92f-c331-4206-8292-a2696dae8738.json"
+}
