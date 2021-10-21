@@ -1,0 +1,33 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Bird 2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatate",
+                "name": "Annonatate"
+            },
+            "created": "2021-10-21T23:57:16.713Z",
+            "modified": "2021-10-21T23:57:18.710Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"92890.2890625,62.98501968383789 92796.65625,127.53047180175781 92913.921875,195.71229553222656 92912.109375,197.5304718017578 92990.2890625,239.34864807128906 92988.46875,245.71229553222656 93057.5625,131.16683959960938 93056.65625,125.71228790283203 93060.2890625,117.53047180175781\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "87b4c1a3-0cb1-4d6c-8e0d-ebd845c5037a.json"
+}
