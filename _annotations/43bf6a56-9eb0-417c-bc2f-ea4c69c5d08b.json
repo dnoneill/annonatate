@@ -3,32 +3,43 @@ canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
+        {
+            "created": "2021-09-28T21:57:41.631Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-09-28T21:57:41.996Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test"
+        },
         {
             "type": "TextualBody",
             "value": "test",
             "purpose": "commenting",
             "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
+                "id": "Test username",
+                "name": "Test username"
             },
-            "created": "2021-09-28T21:57:41.631Z",
-            "modified": "2021-09-28T21:57:41.996Z"
+            "created": "2021-10-26T18:48:56.997Z",
+            "modified": "2021-10-26T18:48:57.557Z"
         }
     ],
+    "id": "43bf6a56-9eb0-417c-bc2f-ea4c69c5d08b.json",
     "target": {
-        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:5105.47607421875,1673.380859375,1229.99951171875,1278.809326171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:5105.47607421875,1673.380859375,1229.99951171875,1278.809326171875"
+        },
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "43bf6a56-9eb0-417c-bc2f-ea4c69c5d08b.json"
+    "type": "Annotation"
 }
