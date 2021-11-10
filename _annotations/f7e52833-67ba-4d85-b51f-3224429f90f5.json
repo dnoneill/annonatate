@@ -7,14 +7,25 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "Bug",
+            "value": "Bug #4",
             "purpose": "commenting",
             "creator": {
                 "id": "annonatate",
                 "name": "Annonatate"
             },
             "created": "2021-11-10T19:07:02.302Z",
-            "modified": "2021-11-10T19:07:02.716Z"
+            "modified": "2021-11-10T19:07:23.754Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "bug",
+            "purpose": "tagging",
+            "creator": {
+                "id": "annonatate",
+                "name": "Annonatate"
+            },
+            "created": "2021-11-10T19:07:17.063Z",
+            "modified": "2021-11-10T19:07:18.740Z"
         }
     ],
     "target": {
