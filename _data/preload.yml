@@ -20,5 +20,6 @@ vocab:
 - update vocal test
 - label: label with uri test update
   uri: uri2
-tempuser: 'true'
-viewer: mirador
+settings:
+  tempuser: true
+  viewer: mirador
