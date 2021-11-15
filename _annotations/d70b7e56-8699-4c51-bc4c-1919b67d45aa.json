@@ -1,0 +1,44 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 7
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>test dashed</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=94974,306,455,268"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M94973.65829,305.62729h227.66333v0h227.66333v134.01201v134.01201h-227.66333h-227.66333v-134.01201z\"  id=\"rectangle_3cc5d3af-528d-4c8e-8d66-54475aabee4b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff00ff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"5,5\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2021-11-15T22:43:35.462Z",
+    "@id": "d70b7e56-8699-4c51-bc4c-1919b67d45aa.json",
+    "oa:annotatedBy": [
+        "test tempuser 2"
+    ]
+}
