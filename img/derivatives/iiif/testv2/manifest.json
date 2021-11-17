@@ -1,0 +1,44 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "test",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://dnoneill.github.io/annonatate/canvas/img/derivatives/iiif/testv2/annonatateposter-0.json",
+          "@type": "sc:Canvas",
+          "label": "annonatate poster",
+          "thumbnail": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2/annonatateposter-0/full/125,/0/default.jpg",
+          "height": 5800,
+          "width": 8000,
+          "images": [
+            {
+              "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2/annonatateposter-0/annotation/1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2/annonatateposter-0/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5800,
+                "width": 8000,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2/annonatateposter-0",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://dnoneill.github.io/annonatate/canvas/img/derivatives/iiif/testv2/annonatateposter-0.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
