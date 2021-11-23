@@ -16,7 +16,7 @@ order: 5
         "test tempuser 3",
         null
     ],
-    "oa:serializedAt": "2021-11-23T01:22:18.083Z",
+    "oa:serializedAt": "2021-11-23T01:25:46.658Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -29,7 +29,7 @@ order: 5
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M21157.68086,241.80281h308.9533v0h308.9533v237.19719v237.19719h-308.9533h-308.9533v-237.19719z\"  id=\"rectangle_f6cf2252-684d-4c8f-b927-533c2e0a2ada\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"244.67354\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M21157.68086,241.80281h308.9533v0h308.9533v237.19719v237.19719h-308.9533h-308.9533v-237.19719z\"  id=\"rectangle_f6cf2252-684d-4c8f-b927-533c2e0a2ada\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"177.82634\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -41,7 +41,7 @@ order: 5
     "resource": [
         {
             "@type": "dctypes:Text",
-            "chars": "<p>testing username</p>\n<p>testing username 3 - try 2</p>\n<p>test update username 4</p>",
+            "chars": "<p>testing username</p>\n<p>testing username 3 - try 2</p>\n<p>test update username 4</p>\n<p>test update username 5</p>",
             "format": "text/html"
         }
     ]
