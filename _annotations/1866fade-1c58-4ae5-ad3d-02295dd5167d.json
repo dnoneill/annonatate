@@ -14,7 +14,6 @@ order: 5
         "testing",
         "dnoneill",
         "test tempuser 3",
-        null,
         "update test 5"
     ],
     "oa:serializedAt": "2021-11-23T01:37:33.134Z",
