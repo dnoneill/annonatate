@@ -12,8 +12,10 @@ order: 6
     "oa:annotatedAt": "2021-11-15T22:34:11.897Z",
     "oa:annotatedBy": [
         "test tempuser 2",
-        "update test 5"
+        "update test 5",
+        "testing"
     ],
+    "oa:serializedAt": "2021-11-23T20:48:10.990Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -26,7 +28,7 @@ order: 6
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M22051.6424,330.00302h204.30898v0h204.30898v175.90552v175.90552h-204.30898h-204.30898v-175.90552z\"  id=\"rectangle_0e9a67ff-1433-4566-9a93-4eb63b03f6ac\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"686.05842\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M22051.6424,330.00302h204.30898v0h204.30898v175.90552v175.90552h-204.30898h-204.30898v-175.90552z\"  id=\"rectangle_0e9a67ff-1433-4566-9a93-4eb63b03f6ac\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"122.33677\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -38,9 +40,8 @@ order: 6
     "resource": [
         {
             "@type": "dctypes:Text",
-            "chars": "<p>test2</p>\n<p>test update name 2</p>",
+            "chars": "<p>test2</p>\n<p>test update name 2</p>\n<p>test update name 3</p>",
             "format": "text/html"
         }
-    ],
-    "oa:serializedAt": "2021-11-23T01:36:53.242Z"
+    ]
 }
