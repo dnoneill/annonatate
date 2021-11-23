@@ -1,0 +1,9 @@
+---
+canvas_id: "https://www.e-newspaperarchives.ch/iiif/issue/LBP18880901-01/canvas/LBP18880901-01.1.1"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "oa:AnnotationList",
+"resources": [{{ annotations | join: ","}}] }
