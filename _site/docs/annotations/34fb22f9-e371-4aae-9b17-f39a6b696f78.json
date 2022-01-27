@@ -1,0 +1,40 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>test temp user</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=4944,3835,5751,5396"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4944.1463,3835.0792h2875.63266v0h2875.63266v2697.82033v2697.82033h-2875.63266h-2875.63266v-2697.82033z\"  id=\"rectangle_7000e6e7-4ab0-43e8-9d59-60e8cc7c8a06\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2022-01-25T12:37:46.417Z",
+    "@id": "34fb22f9-e371-4aae-9b17-f39a6b696f78.json",
+    "oa:annotatedBy": [
+        "test temp"
+    ]
+}

@@ -1,0 +1,1371 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "test"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Back cover 2"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Backcover2/full/192,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7293,
+      "width": 6136,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Backcover2/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7293,
+                "width": 6136,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Backcover2",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Back cover"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Backcover/full/195,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7316,
+      "width": 6227,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Backcover/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7316,
+                "width": 6227,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Backcover",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Front cover"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Frontcover/full/197,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7359,
+      "width": 6289,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Frontcover/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7359,
+                "width": 6289,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Frontcover",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Index"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Index/full/192,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6900,
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Index/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6900,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Index",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 1r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet1r/full/133,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 4862,
+      "width": 8539,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p5/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0005-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet1r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4862,
+                "width": 8539,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet1r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 1v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet1v/full/133,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 4839,
+      "width": 8516,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p6/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0006-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet1v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4839,
+                "width": 8516,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet1v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 2r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet2r/full/133,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 4803,
+      "width": 8513,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p7/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0007-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet2r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4803,
+                "width": 8513,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet2r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 2v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet2v/full/133,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 4816,
+      "width": 8540,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p8/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0008-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet2v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4816,
+                "width": 8540,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet2v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 3r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet3r/full/157,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 8480,
+      "width": 5012,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p9/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0009-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet3r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 8480,
+                "width": 5012,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet3r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 3v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet3v/full/156,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 8534,
+      "width": 4982,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p10/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0010-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet3v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 8534,
+                "width": 4982,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet3v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 4r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet4r/full/195,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 8228,
+      "width": 6252,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p11/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0011-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet4r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 8228,
+                "width": 6252,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet4r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-12",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 4v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet4v/full/197,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 8214,
+      "width": 6292,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p12/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0012-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet4v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 8214,
+                "width": 6292,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet4v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-13",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 5r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet5r/full/193,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7743,
+      "width": 6179,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p13/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0013-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet5r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7743,
+                "width": 6179,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet5r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-14",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 5v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet5v/full/193,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7785,
+      "width": 6172,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p14/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0014-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet5v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7785,
+                "width": 6172,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet5v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-15",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 6r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet6r/full/128,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6111,
+      "width": 8171,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p15/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0015-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet6r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6111,
+                "width": 8171,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet6r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-16",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 6v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet6v/full/128,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6026,
+      "width": 8180,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p16/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0016-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet6v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6026,
+                "width": 8180,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet6v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-17",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 7r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet7r/full/110,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6184,
+      "width": 7014,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p17/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0017-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet7r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6184,
+                "width": 7014,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet7r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-18",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 7v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet7v/full/111,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6253,
+      "width": 7120,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p18/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0018-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet7v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6253,
+                "width": 7120,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet7v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-19",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 8r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet8r/full/132,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5752,
+      "width": 8430,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p19/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0019-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet8r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5752,
+                "width": 8430,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet8r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-20",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 8v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet8v/full/131,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5770,
+      "width": 8385,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p20/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0020-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet8v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5770,
+                "width": 8385,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet8v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-21",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 9r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet9r/full/110,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6206,
+      "width": 7046,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p21/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0021-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet9r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6206,
+                "width": 7046,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet9r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-22",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 9v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet9v/full/111,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6227,
+      "width": 7072,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p22/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0022-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet9v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6227,
+                "width": 7072,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet9v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-23",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 10r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet10r/full/102,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6157,
+      "width": 6556,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p23/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0023-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet10r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6157,
+                "width": 6556,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet10r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-24",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 10v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet10v/full/102,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6148,
+      "width": 6548,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p24/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0024-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet10v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6148,
+                "width": 6548,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet10v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-25",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 11r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet11r/full/134,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5690,
+      "width": 8562,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p25/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0025-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet11r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5690,
+                "width": 8562,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet11r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-26",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 11v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet11v/full/134,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5696,
+      "width": 8575,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p26/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0026-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet11v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5696,
+                "width": 8575,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet11v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-27",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 12r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet12r/full/192,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7863,
+      "width": 6146,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p27/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0027-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet12r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7863,
+                "width": 6146,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet12r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-28",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 12v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet12v/full/192,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7834,
+      "width": 6138,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p28/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0028-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet12v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7834,
+                "width": 6138,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet12v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-29",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 13r"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet13r/full/189,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7901,
+      "width": 6044,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p29/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0029-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet13r/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7901,
+                "width": 6044,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet13r",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-30",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Sheet 13v"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet13v/full/190,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 7922,
+      "width": 6086,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/page/p30/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/annotation/p0030-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet13v/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7922,
+                "width": 6086,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/Sheet13v",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test/canvas/test-30"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
