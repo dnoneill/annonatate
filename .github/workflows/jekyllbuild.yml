@@ -17,6 +17,6 @@ jobs:
       - uses: actions/jekyll-build-pages@v1-beta
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/deploy-pages
+      - uses: actions/deploy-pages@v1-beta
         with:
           access_token: ${{ github.token }}
