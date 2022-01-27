@@ -16,14 +16,9 @@ jobs:
       - uses: actions/jekyll-build-pages@v1-beta
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "update data" -a
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main 
+          build_dir: _site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
