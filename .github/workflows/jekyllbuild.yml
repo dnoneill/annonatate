@@ -16,7 +16,6 @@ jobs:
       - uses: actions/jekyll-build-pages@v1-beta
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          destination: docs
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
