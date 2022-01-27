@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/13maps//Sheet4r",
+  "height": 8228,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 257,
+      "width": 195
+    },
+    {
+      "height": 129,
+      "width": 98
+    },
+    {
+      "height": 64,
+      "width": 49
+    },
+    {
+      "height": 32,
+      "width": 24
+    },
+    {
+      "height": 16,
+      "width": 12
+    },
+    {
+      "height": 8,
+      "width": 6
+    },
+    {
+      "height": 4,
+      "width": 3
+    },
+    {
+      "height": 2,
+      "width": 2
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "width": 512
+    }
+  ],
+  "width": 6252
+}

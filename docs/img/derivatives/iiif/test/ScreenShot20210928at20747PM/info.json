@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test//ScreenShot20210928at20747PM",
+  "height": 580,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 290,
+      "width": 453
+    },
+    {
+      "height": 145,
+      "width": 227
+    },
+    {
+      "height": 73,
+      "width": 113
+    },
+    {
+      "height": 36,
+      "width": 57
+    },
+    {
+      "height": 18,
+      "width": 28
+    },
+    {
+      "height": 9,
+      "width": 14
+    },
+    {
+      "height": 5,
+      "width": 7
+    },
+    {
+      "height": 2,
+      "width": 4
+    },
+    {
+      "height": 1,
+      "width": 2
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1
+      ],
+      "width": 512
+    }
+  ],
+  "width": 906
+}
