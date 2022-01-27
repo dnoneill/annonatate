@@ -10,8 +10,4 @@ jobs:
         with:
           destination: build
       - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
-          directory: build
+        run: git subtree push --prefix build origin gh-pages
