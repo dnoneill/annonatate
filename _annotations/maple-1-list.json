@@ -10,7 +10,7 @@
     "body": [
         {
             "type": "TextualBody",
-            "value": "IIIF Logo",
+            "value": "IIIF Logo test",
             "purpose": "commenting",
             "creator": {
                 "id": "julsraemy",
