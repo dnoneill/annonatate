@@ -9,7 +9,11 @@ jobs:
       - uses: actions/jekyll-build-pages@v1-beta
         with:
           destination: _build
-      - name: add _build
-        run: git add _build && git commit -m "update build"
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update site build" -a
       - name: push changes
-        run: git subtree push --prefix build origin gh-pages
+        run: git subtree push --prefix _build origin gh-pages
