@@ -8,6 +8,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/jekyll-build-pages@v1-beta
         with:
-          destination: build
+          destination: _build
+      - name: add _build
+        run: git add _build && git commit -m "update build"
       - name: push changes
-        run: git subtree push --prefix build origin gh-pages --force
+        run: git subtree push --prefix build origin gh-pages
