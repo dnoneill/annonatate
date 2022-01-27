@@ -5,25 +5,22 @@ on:
     branches:
       - main  
 jobs:
-  github-pages:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.9.1
-        with:
-          access_token: ${{ github.token }}
-      - uses: actions/checkout@v2
-      - uses: actions/jekyll-build-pages@v1-beta
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: archive build
-        run: tar --dereference --hard-dereference --directory _site/ -cvf artifact.tar .
   deploy:
-    needs: github-pages
     runs-on: ubuntu-latest
+
     steps:
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+      - uses: actions/checkout@v2
+      - name: Cache gems
+        uses: actions/cache@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main 
+          path: vendor/gems
+          key: ${{ runner.os }}-build-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Build & Deploy to GitHub Pages
+        uses: DavidS/jekyll-deploy@main
+        env:
+          JEKYLL_ENV: production
+          GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
