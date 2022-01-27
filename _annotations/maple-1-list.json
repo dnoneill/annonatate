@@ -7,7 +7,6 @@
 "type": "AnnotationPage",
 "items": [{
     "type": "Annotation",
-    "motivation": "commenting",
     "body": [
         {
             "type": "TextualBody",
