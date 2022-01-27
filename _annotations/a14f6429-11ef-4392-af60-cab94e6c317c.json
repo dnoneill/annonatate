@@ -4,16 +4,15 @@ order: 2
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "a14f6429-11ef-4392-af60-cab94e6c317c.json",
     "@type": "oa:Annotation",
     "motivation": [
         "oa:commenting"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>test2</p>"
-        }
+    "oa:annotatedAt": "2022-01-25T12:46:05.389Z",
+    "oa:annotatedBy": [
+        "test temp",
+        "test"
     ],
     "on": [
         {
@@ -27,7 +26,7 @@ order: 2
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M13301.32579,4724.14084h2134.74795v0h2134.74795v3083.08038v3083.08038h-2134.74795h-2134.74795v-3083.08038z\"  id=\"rectangle_b46682db-6f75-4baa-9387-9b2caebd1632\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M13301.32579,4724.14084h2134.74795v0h2134.74795v3083.08038v3083.08038h-2134.74795h-2134.74795v-3083.08038z\"  id=\"rectangle_b46682db-6f75-4baa-9387-9b2caebd1632\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"278.93025\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -36,9 +35,12 @@ order: 2
             }
         }
     ],
-    "oa:annotatedAt": "2022-01-25T12:46:05.389Z",
-    "@id": "a14f6429-11ef-4392-af60-cab94e6c317c.json",
-    "oa:annotatedBy": [
-        "test temp"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>test2</p>\n<p>test build 2</p>",
+            "format": "text/html"
+        }
+    ],
+    "oa:serializedAt": "2022-01-27T23:56:05.612Z"
 }
