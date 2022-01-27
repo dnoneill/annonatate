@@ -1,5 +1,7 @@
 name: update build
-on: workflow_dispatch
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   test:
