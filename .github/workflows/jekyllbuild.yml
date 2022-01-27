@@ -18,9 +18,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: archive build
         run: tar --dereference --hard-dereference --directory _site/ -cvf artifact.tar .
-      - uses: actions/deploy-pages@v1-beta
-        with:
-          token: ${{ github.token }}
   deploy:
     needs: github-pages
     runs-on: ubuntu-latest
