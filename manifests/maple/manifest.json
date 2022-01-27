@@ -1,5 +1,7 @@
 ---
+layout: null
 ---
+
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://julsraemy.github.io/annonatate/img/derivatives/iiif/maple/manifest.json",
