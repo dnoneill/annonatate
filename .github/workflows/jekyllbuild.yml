@@ -22,6 +22,8 @@ jobs:
     needs: github-pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/deploy-pages@v1-beta
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main 
