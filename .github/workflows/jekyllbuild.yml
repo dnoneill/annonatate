@@ -18,7 +18,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-
+      - name: bundle install
+        run: bundle install
       - name: Build & Deploy to GitHub Pages
         uses: DavidS/jekyll-deploy@main
         env:
