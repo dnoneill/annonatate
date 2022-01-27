@@ -1,4 +1,5 @@
-
+---
+---
 {
 "@context": "http://iiif.io/api/presentation/3/context.json",
 "id": "https://dnoneill.github.io/annonatate/annotations/maple-1-list",
