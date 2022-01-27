@@ -16,9 +16,10 @@ jobs:
       - uses: actions/jekyll-build-pages@v1-beta
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          build_dir: _site
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: test
+        run: tar --dereference --hard-dereference --directory _site/ -cvf artifact.tar .
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+      - name: deploy
+        uses: actions/deploy-pages@v1-beta
+      
