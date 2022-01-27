@@ -19,4 +19,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/deploy-pages@v1-beta
         with:
-          access_token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
