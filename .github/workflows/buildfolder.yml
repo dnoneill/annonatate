@@ -22,4 +22,6 @@ jobs:
           git add -A
           git commit -m "update site build" -a
       - name: push changes
-        run: git subtree push --prefix _build origin gh-pages
+        run: |
+          git pull origin main
+          git subtree push --prefix _build origin gh-pages
