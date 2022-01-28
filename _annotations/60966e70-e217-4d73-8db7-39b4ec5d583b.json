@@ -1,0 +1,44 @@
+---
+canvas: "https://purl.stanford.edu/wh234bz9013/iiif/canvas/wh234bz9013_1"
+order: 1
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>test github filter</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/wh234bz9013_1",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=2294,1941,1591,2739"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2293.71142,1940.78257h795.66934v0h795.66934v1369.59719v1369.59719h-795.66934h-795.66934v-1369.59719z\"  id=\"rectangle_ad81b2c6-6a48-4a4b-9574-ef8d429f18e7\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://purl.stanford.edu/wh234bz9013/iiif/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2022-01-28T00:10:09.226Z",
+    "@id": "60966e70-e217-4d73-8db7-39b4ec5d583b.json",
+    "oa:annotatedBy": [
+        "test"
+    ]
+}
