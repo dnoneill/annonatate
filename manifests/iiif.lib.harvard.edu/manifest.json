@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.lib.harvard.edu/manifests/ids:38847172",
+  "@type": "sc:Manifest",
+  "label": "Harvard University, Harvard Map Collection, G7960_1801_N35",
+  "attribution": "Provided by Harvard University",
+  "license": "https://nrs.harvard.edu/urn-3:HUL.eother:idscopyright",
+  "logo": "https://iiif.lib.harvard.edu/static/manifests/harvard_logo.jpg",
+  "sequences": [
+    {
+      "@id": "https://iiif.lib.harvard.edu/manifests/ids:38847172/sequence/normal.json",
+      "@type": "sc:Sequence",
+      "label": "Harvard University, Harvard Map Collection, G7960_1801_N35",
+      "startCanvas": "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json",
+      "viewingHint": "individuals",
+      "canvases": [
+        {
+          "@id": "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json",
+          "@type": "sc:Canvas",
+          "label": "Harvard University, Harvard Map Collection, G7960_1801_N35",
+          "thumbnail": {
+            "@id": "https://ids.lib.harvard.edu/ids/iiif/38847172/full/,150/0/default.jpg",
+            "@type": "dctypes:Image"
+          },
+          "height": 6169,
+          "width": 8973,
+          "images": [
+            {
+              "@id": "https://iiif.lib.harvard.edu/manifests/ids:38847172/annotation/anno-38847172.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/38847172/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6169,
+                "width": 8973,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/38847172",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://dnoneill.github.io/annonatate/annotations/ids-38847172-canvas-38847172-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

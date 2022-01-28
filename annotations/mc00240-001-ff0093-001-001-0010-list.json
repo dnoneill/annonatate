@@ -1,0 +1,6 @@
+
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"id": "https://dnoneill.github.io/annonatate/annotations/mc00240-001-ff0093-001-001-0010-list.json",
+"type": "AnnotationPage",
+"items": [] }
