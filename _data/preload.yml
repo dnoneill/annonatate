@@ -13,6 +13,9 @@ manifests:
 - https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest
 - https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
 - https://purl.stanford.edu/wh234bz9013/iiif/manifest
+settings:
+  tempuser: 'True'
+  viewer: default
 vocab:
 - test label no uri
 - label: label with uri
@@ -20,6 +23,3 @@ vocab:
 - update vocal test
 - label: label with uri test update
   uri: uri2
-settings:
-  tempuser: true
-  viewer: mirador
