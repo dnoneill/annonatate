@@ -3,33 +3,44 @@ canvas: "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2022-02-08T15:58:36.896Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "temp user"
+            },
+            "modified": "2022-02-08T15:58:38.844Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "demo manifest",
+            "value": "demo manifest"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test",
             "purpose": "commenting",
             "creator": {
                 "id": "dnoneill",
                 "name": "temp user"
             },
-            "created": "2022-02-08T15:58:36.896Z",
-            "modified": "2022-02-08T15:58:38.844Z"
+            "created": "2022-02-08T15:59:04.972Z",
+            "modified": "2022-02-08T15:59:05.295Z"
         }
     ],
+    "id": "420b04eb-9a07-4f79-9ee9-510c664c46a8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1655.9195556640625,1225.1971435546875,1304.2869873046875,832.5235595703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annonatate/manifests/iiif.lib.harvard.edu/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1655.9195556640625,1225.1971435546875,1304.2869873046875,832.5235595703125"
+        },
+        "source": "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "420b04eb-9a07-4f79-9ee9-510c664c46a8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
