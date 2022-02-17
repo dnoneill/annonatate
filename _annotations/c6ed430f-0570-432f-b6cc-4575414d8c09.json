@@ -3,33 +3,44 @@ canvas: "https://dnoneill.github.io/annonatate/img/derivatives/iiif/obj12/canvas
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2022-02-17T22:31:12.663Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "temp"
+            },
+            "modified": "2022-02-17T22:31:13.908Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "test create",
+            "value": "test create"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test reply logout",
             "purpose": "commenting",
             "creator": {
                 "id": "dnoneill",
                 "name": "temp"
             },
-            "created": "2022-02-17T22:31:12.663Z",
-            "modified": "2022-02-17T22:31:13.908Z"
+            "created": "2022-02-17T22:43:43.300Z",
+            "modified": "2022-02-17T22:43:46.271Z"
         }
     ],
+    "id": "c6ed430f-0570-432f-b6cc-4575414d8c09.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/obj12/canvas/obj12-1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1182.19677734375,1105.488037109375,1135.852294921875,674.7637939453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/obj12/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1182.19677734375,1105.488037109375,1135.852294921875,674.7637939453125"
+        },
+        "source": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/obj12/canvas/obj12-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c6ed430f-0570-432f-b6cc-4575414d8c09.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
