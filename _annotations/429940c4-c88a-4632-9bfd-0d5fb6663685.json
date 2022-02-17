@@ -1,0 +1,35 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test2 existing",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "temp"
+            },
+            "created": "2022-02-17T21:57:29.934Z",
+            "modified": "2022-02-17T21:57:32.978Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2876.4833984375,2242.091552734375,1348.31298828125,959.109130859375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "429940c4-c88a-4632-9bfd-0d5fb6663685.json",
+    "motivation": "commenting"
+}
