@@ -1,0 +1,35 @@
+---
+canvas: "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "test"
+            },
+            "created": "2022-02-18T21:49:37.751Z",
+            "modified": "2022-02-18T21:49:38.272Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.lib.harvard.edu/manifests/ids:38847172/canvas/canvas-38847172.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2453.7119140625,1274.384765625,1637.7236328125,890.691650390625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/manifests/iiif.lib.harvard.edu/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "4b37f1b5-e7c5-409e-8090-dcf691dca807.json",
+    "motivation": "commenting"
+}
