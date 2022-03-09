@@ -1,0 +1,34 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/0002386"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Polygon",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "test"
+            },
+            "created": "2022-03-09T22:10:34.026Z",
+            "modified": "2022-03-09T22:10:35.146Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/0002386",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3101.49853515625,790.8634033203125 4121.58056640625,1570.9259033203125 3929.56494140625,1750.9404296875 2609.459228515625,1582.9268798828125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/manifests/catalog/0002386/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "4c79c0c4-c63a-4b98-978c-d73f5da69efb.json",
+    "motivation": "commenting"
+}
