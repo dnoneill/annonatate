@@ -1,0 +1,34 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/0002386"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ellipse",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "test"
+            },
+            "created": "2022-03-09T22:10:08.781Z",
+            "modified": "2022-03-09T22:10:15.332Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/0002386",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"5663.703857421875\" cy=\"1834.9471435546875\" rx=\"618.049560546875\" ry=\"504.0404052734375\"></ellipse></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/manifests/catalog/0002386/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1074b530-300e-45b7-9e6c-aef14d5ea8fc.json",
+    "motivation": "commenting"
+}
