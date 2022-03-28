@@ -3,33 +3,43 @@ canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test",
-            "purpose": "commenting",
+            "created": "2022-03-28T20:49:07.089Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "test"
             },
-            "created": "2022-03-28T20:49:07.089Z",
-            "modified": "2022-03-28T20:49:07.552Z"
+            "modified": "2022-03-28T20:49:07.552Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "test label no uri",
+            "creator": {
+                "id": "dnoneill",
+                "name": "Niqui"
+            },
+            "created": "2022-03-28T22:34:18.831Z"
         }
     ],
+    "id": "0fe41054-d0f8-41a7-9ef8-385825a99bad.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=7575.72998046875,3225.489501953125,430.78369140625,295.314453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=7575.72998046875,3225.489501953125,430.78369140625,295.314453125"
+        },
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0fe41054-d0f8-41a7-9ef8-385825a99bad.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
