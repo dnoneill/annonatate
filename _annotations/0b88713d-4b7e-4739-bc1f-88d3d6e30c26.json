@@ -3,33 +3,33 @@ canvas: "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet3/canva
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test2",
-            "purpose": "commenting",
+            "created": "2022-02-18T20:09:21.364Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "test"
             },
-            "created": "2022-02-18T20:09:21.364Z",
-            "modified": "2022-02-18T20:09:22.668Z"
+            "modified": "2022-02-18T20:09:22.668Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test2"
         }
     ],
+    "id": "0b88713d-4b7e-4739-bc1f-88d3d6e30c26.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet3/canvas/sheet3-1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=986.2866821289062,3366.16455078125,2444.2052612304688,1139.78466796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=986.2866821289062,3366.16455078125,2444.2052612304688,1139.78466796875"
+        },
+        "source": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet3/canvas/sheet3-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0b88713d-4b7e-4739-bc1f-88d3d6e30c26.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
