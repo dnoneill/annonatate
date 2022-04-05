@@ -1,34 +1,34 @@
 ---
 canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
-order: 5
+order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test",
-            "purpose": "commenting",
+            "created": "2022-03-28T20:49:13.631Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "test"
             },
-            "created": "2022-03-28T20:49:13.631Z",
-            "modified": "2022-03-28T20:49:14.093Z"
+            "modified": "2022-03-28T20:49:14.093Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test"
         }
     ],
+    "id": "7f7f399e-f0e3-40d7-aedc-9fe65b2cde00.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"7621.23388671875,2486.82763671875 7818.86376953125,2671.104248046875 7463.6640625,2713.8349609375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
-            "type": "Manifest"
-        }
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7f7f399e-f0e3-40d7-aedc-9fe65b2cde00.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
