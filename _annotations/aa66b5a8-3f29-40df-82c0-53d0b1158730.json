@@ -1,0 +1,33 @@
+---
+canvas: "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet3/canvas/sheet3-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "test"
+            },
+            "created": "2022-04-05T20:47:15.577Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet3/canvas/sheet3-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"333.9941101074219,467.0322265625 1231.3486328125,1609.1197509765625 48.472225189208984,1364.38671875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "aa66b5a8-3f29-40df-82c0-53d0b1158730.json",
+    "motivation": "commenting"
+}
