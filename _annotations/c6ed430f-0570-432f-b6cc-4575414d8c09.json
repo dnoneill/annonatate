@@ -1,6 +1,6 @@
 ---
 canvas: "https://dnoneill.github.io/annonatate/img/derivatives/iiif/obj12/canvas/obj12-1"
-order: 2
+order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
@@ -17,15 +17,15 @@ order: 2
             "value": "test create"
         },
         {
-            "type": "TextualBody",
-            "value": "test reply logout",
-            "purpose": "commenting",
+            "created": "2022-02-17T22:43:43.300Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "temp"
             },
-            "created": "2022-02-17T22:43:43.300Z",
-            "modified": "2022-02-17T22:43:46.271Z"
+            "modified": "2022-02-17T22:43:46.271Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test reply logout"
         }
     ],
     "id": "c6ed430f-0570-432f-b6cc-4575414d8c09.json",
