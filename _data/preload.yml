@@ -14,7 +14,6 @@ manifests:
 - https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
 - https://purl.stanford.edu/wh234bz9013/iiif/manifest
 settings:
-  tempuser: 'True'
   viewer: default
 vocab:
 - test label no uri
