@@ -1,0 +1,35 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/platowithenglish04platuoft$9/canvas"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Preface",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-04-28T22:20:25.551Z",
+            "modified": "2022-04-28T22:20:27.360Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/platowithenglish04platuoft$9/canvas",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=443.6962890625,682.578857421875,510.7408447265625,114.5587158203125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/manifests/iiif/platowithenglish04platuoft/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "91a8f774-1af0-40be-addc-385c0b5b4005.json",
+    "motivation": "commenting"
+}
