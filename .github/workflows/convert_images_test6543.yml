@@ -2,7 +2,7 @@ name: convert_images_test6543
 on: workflow_dispatch
 
 concurrency: 
-  group: ${{ github.head_ref }}
+  group: ${{ github.ref }}
   cancel-in-progress: true
   
 jobs:
