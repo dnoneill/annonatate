@@ -1,8 +1,8 @@
-name: convert_images_test654
+name: convert_images
 on: workflow_dispatch
 
 jobs:
-  convertimages:
+  convertimagestest654:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
