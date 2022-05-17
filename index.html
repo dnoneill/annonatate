@@ -3,7 +3,6 @@ layout: null
 ---
 {% assign images = site.static_files | where_exp: 'item', 'item.path contains "/images/"' | sort_natural | map: 'path' %}
 {% assign collections = site.pages | where_exp: 'item', 'item.dir == "/collections/"' | sort_natural %}
-{% assign annotationstest = site.pages | where_exp: 'item', 'item.dir == "/annotations/"' | sort_natural %}
 {% assign manifests = site.pages | where_exp: 'item', 'item.name contains "manifest.json"' | map: 'url' %}
 {% assign customviews = site.pages | where_exp: 'item', 'item.dir contains "customviews"' | sort_natural %}
 {% assign manifestarray = '' | split: "" %}
@@ -18,8 +17,8 @@ layout: null
  {% assign imagearray = imagearray | push: item %}
 {% endunless %}
 {% endfor %}
-{"annotations": [{% for file in annotationstest %}{
-{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}{% unless file.path contains '-list' %}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}} {% endunless %}
+{"annotations": [{% for file in site.annotations %}{
+{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
 "manifests": {{manifestarray | jsonify}}, "images": {{imagearray| jsonify}}, 
  "preloadedcontent": {{site.data.preload | jsonify}},
