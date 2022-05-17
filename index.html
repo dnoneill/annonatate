@@ -7,7 +7,6 @@ layout: null
 {% assign manifests = site.pages | where_exp: 'item', 'item.name contains "manifest.json"' | map: 'url' %}
 {% assign customviews = site.pages | where_exp: 'item', 'item.dir contains "customviews"' | sort_natural %}
 {% assign manifestarray = '' | split: "" %}
-{{annotationstest.first}}
 {% for manifest in manifests %}
 {% assign item = manifest | prepend: site.baseurl | prepend: site.url %}
  {% assign manifestarray = manifestarray | push: item %}
