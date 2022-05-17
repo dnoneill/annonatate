@@ -16,6 +16,10 @@ manifests:
 settings:
   viewer: default
 vocab:
+- label: person
+  uri: https://www.wikidata.org/wiki/Q215627
+- label: date of birth
+  uri: https://www.wikidata.org/wiki/Q2389905
 - uri: https://www.wikidata.org/wiki/Q215627
   "\uFEFFlabel": person
 - uri: https://www.wikidata.org/wiki/Q2389905
