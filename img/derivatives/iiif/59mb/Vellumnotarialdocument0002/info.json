@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/59mb//Vellumnotarialdocument0002",
+  "height": 2426,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 152,
+      "width": 508
+    },
+    {
+      "height": 76,
+      "width": 254
+    },
+    {
+      "height": 38,
+      "width": 127
+    },
+    {
+      "height": 19,
+      "width": 64
+    },
+    {
+      "height": 9,
+      "width": 32
+    },
+    {
+      "height": 5,
+      "width": 16
+    },
+    {
+      "height": 2,
+      "width": 8
+    },
+    {
+      "height": 1,
+      "width": 4
+    },
+    {
+      "height": 1,
+      "width": 2
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 512
+    }
+  ],
+  "width": 8128
+}
