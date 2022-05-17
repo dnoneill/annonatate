@@ -19,7 +19,7 @@ layout: null
 {% endunless %}
 {% endfor %}
 {"annotations": [{% for file in annotationstest %}{
-{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}, {% unless file.path contains '-list' %}{{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}} {% endunless %}
+{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}{% unless file.path contains '-list' %}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}} {% endunless %}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
 "manifests": {{manifestarray | jsonify}}, "images": {{imagearray| jsonify}}, 
  "preloadedcontent": {{site.data.preload | jsonify}},
