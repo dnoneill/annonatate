@@ -15,6 +15,22 @@ order: 1
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "demo"
+        },
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16,
+                    48
+                ]
+            },
+            "creator": {
+                "id": "annonatate",
+                "name": "Annonatate"
+            },
+            "created": "2022-06-09T21:36:11.095Z"
         }
     ],
     "id": "1b769059-9c88-4296-a712-a1b919e85f62.json",
