@@ -3,25 +3,27 @@ canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Passy",
-            "purpose": "commenting",
+            "created": "2022-06-15T19:14:31.889Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-06-15T19:14:31.889Z",
-            "modified": "2022-06-15T19:14:32.717Z"
+            "modified": "2022-06-15T19:14:32.717Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Passy"
         }
     ],
+    "id": "dd996ef4-b9c0-4181-a0bc-2fb4a89d906c.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2187.14990234375,3712.26806640625 2276.105712890625,3602.9794921875 2331.9944283517198,3648.4703041941993 2243.0386178048448,3757.7588784129493\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2187.14990234375,3712.26806640625 2504.398193359375,3318.8828125 2565.9120944711703,3368.491128540418 2248.6638034555453,3761.876382446668\"></polygon></svg>"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
@@ -31,7 +33,5 @@ order: 8
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dd996ef4-b9c0-4181-a0bc-2fb4a89d906c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
