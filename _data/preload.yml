@@ -15,6 +15,7 @@ manifests:
 - https://purl.stanford.edu/wh234bz9013/iiif/manifest
 settings:
   viewer: default
+  widgets: comment
 vocab:
 - test label no uri
 - label: label with uri
