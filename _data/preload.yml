@@ -16,7 +16,7 @@ manifests:
 settings:
   tempuser: notenabled
   viewer: default
-  widgets: comment, tag, geotagging
+  widgets: comment-with-purpose, tag, geotagging
 vocab:
 - test label no uri
 - label: label with uri
