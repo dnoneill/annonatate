@@ -1,0 +1,35 @@
+---
+canvas: "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "testing widgets",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-06-15T20:12:19.584Z",
+            "modified": "2022-06-15T20:12:25.934Z"
+        }
+    ],
+    "target": {
+        "source": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8676.0693359375,6246.5546875,6008.4169921875,5495.5029296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "723e7480-88f5-4b65-92a1-855677a10646.json",
+    "motivation": "commenting"
+}
