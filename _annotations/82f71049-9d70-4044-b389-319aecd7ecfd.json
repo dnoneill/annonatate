@@ -37,6 +37,17 @@ order: 1
             "purpose": "replying",
             "type": "TextualBody",
             "value": "test2-2\n"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test2-3",
+            "purpose": "replying",
+            "creator": {
+                "id": "test2",
+                "name": "test2"
+            },
+            "created": "2022-09-01T18:54:59.708Z",
+            "modified": "2022-09-01T18:55:02.348Z"
         }
     ],
     "id": "82f71049-9d70-4044-b389-319aecd7ecfd.json",
