@@ -1,7 +1,6 @@
 images:
 - ''
-manifests:
-- testing
+manifests: []
 settings:
   tempuser: notenabled
   viewer: default
