@@ -59,6 +59,17 @@ order: 1
             },
             "created": "2022-09-01T18:55:46.407Z",
             "modified": "2022-09-01T18:55:48.084Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test3",
+            "purpose": "replying",
+            "creator": {
+                "id": "dnoneill",
+                "name": "test3"
+            },
+            "created": "2022-09-01T18:55:56.922Z",
+            "modified": "2022-09-01T18:55:57.723Z"
         }
     ],
     "id": "82f71049-9d70-4044-b389-319aecd7ecfd.json",
