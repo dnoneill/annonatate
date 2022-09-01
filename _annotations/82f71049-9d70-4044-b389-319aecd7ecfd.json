@@ -50,26 +50,37 @@ order: 1
             "value": "test2-3"
         },
         {
-            "type": "TextualBody",
-            "value": "test3",
-            "purpose": "replying",
+            "created": "2022-09-01T18:55:46.407Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "test3"
             },
-            "created": "2022-09-01T18:55:46.407Z",
-            "modified": "2022-09-01T18:55:48.084Z"
+            "modified": "2022-09-01T18:55:48.084Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "test3"
+        },
+        {
+            "created": "2022-09-01T18:55:56.922Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "test3"
+            },
+            "modified": "2022-09-01T18:55:57.723Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "test3"
         },
         {
             "type": "TextualBody",
-            "value": "test3",
+            "value": "test4",
             "purpose": "replying",
             "creator": {
-                "id": "dnoneill",
-                "name": "test3"
+                "id": "test4",
+                "name": "test4"
             },
-            "created": "2022-09-01T18:55:56.922Z",
-            "modified": "2022-09-01T18:55:57.723Z"
+            "created": "2022-09-01T19:01:30.091Z",
+            "modified": "2022-09-01T19:01:31.415Z"
         }
     ],
     "id": "82f71049-9d70-4044-b389-319aecd7ecfd.json",
