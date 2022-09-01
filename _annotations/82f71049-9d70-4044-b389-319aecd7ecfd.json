@@ -72,26 +72,15 @@ order: 1
             "value": "test3"
         },
         {
-            "created": "2022-09-01T19:01:30.091Z",
-            "creator": {
-                "id": "test4",
-                "name": "test4"
-            },
-            "modified": "2022-09-01T19:01:31.415Z",
-            "purpose": "replying",
-            "type": "TextualBody",
-            "value": "test4"
-        },
-        {
-            "type": "TextualBody",
-            "value": "test5",
-            "purpose": "replying",
+            "created": "2022-09-01T19:02:09.039Z",
             "creator": {
                 "id": "test5",
                 "name": "test5"
             },
-            "created": "2022-09-01T19:02:09.039Z",
-            "modified": "2022-09-01T19:02:10.349Z"
+            "modified": "2022-09-01T19:02:10.349Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "test5"
         }
     ],
     "id": "82f71049-9d70-4044-b389-319aecd7ecfd.json",
