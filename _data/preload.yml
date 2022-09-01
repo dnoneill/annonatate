@@ -1,7 +1,7 @@
 images:
 - ''
 manifests:
-- ''
+- testing
 settings:
   tempuser: notenabled
   viewer: default
