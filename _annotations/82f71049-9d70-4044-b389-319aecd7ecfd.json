@@ -3,33 +3,55 @@ canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test1",
-            "purpose": "commenting",
+            "created": "2022-09-01T18:31:37.484Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "test1"
             },
-            "created": "2022-09-01T18:31:37.484Z",
-            "modified": "2022-09-01T18:31:38.366Z"
+            "modified": "2022-09-01T18:31:38.366Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test1"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "test2",
+                "name": "test2"
+            },
+            "created": "2022-09-01T18:53:21.290Z",
+            "modified": "2022-09-01T18:53:22.062Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test2-2\n",
+            "purpose": "replying",
+            "creator": {
+                "id": "test2",
+                "name": "test2"
+            },
+            "created": "2022-09-01T18:54:14.125Z",
+            "modified": "2022-09-01T18:54:17.828Z"
         }
     ],
+    "id": "82f71049-9d70-4044-b389-319aecd7ecfd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1651.200927734375,569.5322265625,623.197021484375,471.4620361328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1651.200927734375,569.5322265625,623.197021484375,471.4620361328125"
+        },
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "82f71049-9d70-4044-b389-319aecd7ecfd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
