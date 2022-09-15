@@ -50,15 +50,26 @@ order: 6
             "value": "update 9"
         },
         {
+            "created": "2022-09-15T21:22:47.179Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2022-09-15T21:22:48.095Z",
+            "purpose": "replying",
             "type": "TextualBody",
-            "value": "update 10",
+            "value": "update 10"
+        },
+        {
+            "type": "TextualBody",
+            "value": "update 11",
             "purpose": "replying",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-15T21:22:47.179Z",
-            "modified": "2022-09-15T21:22:48.095Z"
+            "created": "2022-09-15T21:24:05.115Z",
+            "modified": "2022-09-15T21:24:06.438Z"
         }
     ],
     "id": "8e77f9ca-e5f5-4b6c-92ca-936c924ab4fa.json",
