@@ -17,15 +17,26 @@ order: 6
             "value": "update 6"
         },
         {
-            "type": "TextualBody",
-            "value": "update 7",
-            "purpose": "commenting",
+            "created": "2022-09-15T21:08:20.380Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-15T21:08:20.380Z",
-            "modified": "2022-09-15T21:08:21.623Z"
+            "modified": "2022-09-15T21:08:21.623Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "update 7"
+        },
+        {
+            "type": "TextualBody",
+            "value": "update 8",
+            "purpose": "replying",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-09-15T21:20:15.714Z",
+            "modified": "2022-09-15T21:20:17.030Z"
         }
     ],
     "id": "8e77f9ca-e5f5-4b6c-92ca-936c924ab4fa.json",
