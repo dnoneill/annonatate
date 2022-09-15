@@ -28,26 +28,37 @@ order: 6
             "value": "update 7"
         },
         {
-            "type": "TextualBody",
-            "value": "update 8",
-            "purpose": "replying",
+            "created": "2022-09-15T21:20:15.714Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-15T21:20:15.714Z",
-            "modified": "2022-09-15T21:20:17.030Z"
+            "modified": "2022-09-15T21:20:17.030Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "update 8"
+        },
+        {
+            "created": "2022-09-15T21:21:35.184Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2022-09-15T21:21:36.561Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "update 9"
         },
         {
             "type": "TextualBody",
-            "value": "update 9",
+            "value": "update 10",
             "purpose": "replying",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-15T21:21:35.184Z",
-            "modified": "2022-09-15T21:21:36.561Z"
+            "created": "2022-09-15T21:22:47.179Z",
+            "modified": "2022-09-15T21:22:48.095Z"
         }
     ],
     "id": "8e77f9ca-e5f5-4b6c-92ca-936c924ab4fa.json",
