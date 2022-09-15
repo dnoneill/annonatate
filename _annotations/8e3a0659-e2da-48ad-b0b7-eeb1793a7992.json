@@ -1,0 +1,35 @@
+---
+canvas: "https://purl.stanford.edu/wh234bz9013/iiif/canvas/wh234bz9013_1"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "update5",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "annonatatencsu"
+            },
+            "created": "2022-09-15T21:07:37.371Z",
+            "modified": "2022-09-15T21:07:38.392Z"
+        }
+    ],
+    "target": {
+        "source": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/wh234bz9013_1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=643.6805419921875,3211.6943359375,834.80029296875,766.1865234375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/manifests/purl.stanford.edu/wh234bz9013/iiif/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8e3a0659-e2da-48ad-b0b7-eeb1793a7992.json",
+    "motivation": "commenting"
+}
