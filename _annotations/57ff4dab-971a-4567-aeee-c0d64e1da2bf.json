@@ -3,33 +3,33 @@ canvas: "https://d.lib.ncsu.edu/collections/canvas/0002386"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "testing",
-            "purpose": "commenting",
+            "created": "2022-09-22T18:22:56.365Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-22T18:22:56.365Z",
-            "modified": "2022-09-22T18:22:56.958Z"
+            "modified": "2022-09-22T18:22:56.958Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "testing"
         }
     ],
+    "id": "57ff4dab-971a-4567-aeee-c0d64e1da2bf.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://d.lib.ncsu.edu/collections/canvas/0002386",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4265.85107421875,786.711669921875,449.54931640625,546.951904296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annonatate/manifests/catalog/0002386/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4265.85107421875,786.711669921875,449.54931640625,546.951904296875"
+        },
+        "source": "https://d.lib.ncsu.edu/collections/canvas/0002386"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "57ff4dab-971a-4567-aeee-c0d64e1da2bf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
