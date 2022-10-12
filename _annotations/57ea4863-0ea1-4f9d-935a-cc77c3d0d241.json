@@ -1,0 +1,35 @@
+---
+canvas: "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet/canvas/sheet-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "I have not found what this map represents.",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-10-12T20:50:09.669Z",
+            "modified": "2022-10-12T20:50:22.799Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet/canvas/sheet-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4210.54541015625,1757.96728515625,2322.6767578125,729.3046875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/sheet/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "57ea4863-0ea1-4f9d-935a-cc77c3d0d241.json",
+    "motivation": "commenting"
+}
