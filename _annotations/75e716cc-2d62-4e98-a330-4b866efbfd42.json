@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/annonatate/img/derivatives/iiif/pngtest/canvas/pngtest-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2023-02-28T18:50:17.138Z",
+            "modified": "2023-02-28T18:50:17.589Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/pngtest/canvas/pngtest-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"331.18182373046875,196.36363220214844 331.18182373046875,196.36363220214844 331.18182373046875,196.36363220214844 331.18182373046875,196.36363220214844\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/pngtest/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "75e716cc-2d62-4e98-a330-4b866efbfd42.json",
+    "motivation": "commenting"
+}
