@@ -1,6 +1,7 @@
 images:
 - ''
-manifests: []
+manifests: 
+- ''
 settings:
   tempuser: notenabled
   viewer: default
