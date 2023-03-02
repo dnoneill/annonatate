@@ -1,0 +1,99 @@
+---
+thumbnail: https://iiif.lib.ncsu.edu/iiif/0002386/full/150,/0/default.jpg
+title: Aerial view of University Plaza (the Brickyard)
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/manifests/catalog/0002386/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Aerial view of University Plaza (the Brickyard)",
+  "description": "The Brickyard (officially named University Plaza) was constructed during 1967 to 1969.  The original purpose for the Plaza was to cover the dirt and mud that resulted from the high level of construction going on during the 1950s and 1960s on North campus.  Today, it serves as a central gathering area on NC State's campus.",
+  "related": {
+    "@id": "https://d.lib.ncsu.edu/collections/catalog/0002386",
+    "format": "text/html",
+    "label": "HTML page for the resource",
+    "dcterms:modified": "2022-10-24T14:50:29.827Z"
+  },
+  "logo": {
+    "@id": "https://d.lib.ncsu.edu/collections/assets/ncsu-libraries-white-logo-placement-fa371d02703e250a7573c9ff7efda2be0f0ab068729c9d69c4fed1c532dda73b.jpg"
+  },
+  "attribution": "University Archives Photograph Collection. Campus facilities and views (UA023.005), Special Collections Research Center at NC State University Libraries",
+  "license": [
+    "https://d.lib.ncsu.edu/collections/about#rights_and_use"
+  ],
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Aerial view of University Plaza (the Brickyard)"
+    },
+    {
+      "label": "Created Date",
+      "value": "circa 1967"
+    },
+    {
+      "label": "URL",
+      "value": "<span><a href=\"https://d.lib.ncsu.edu/collections/catalog/0002386\">https://d.lib.ncsu.edu/collections/catalog/0002386</a></span>"
+    },
+    {
+      "label": "",
+      "value": "<span><a title=\"IIIF drag &amp; drop\" href=\"https://d.lib.ncsu.edu/collections/catalog/0002386?manifest=https%3A%2F%2Fd.lib.ncsu.edu%2Fcollections%2Fcatalog%2F0002386%2Fmanifest.json\">IIIF drag &amp; drop</a> (<a href=\"https://d.lib.ncsu.edu/collections/about-iiif\">About IIIF</a>)</span>"
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif.lib.ncsu.edu/iiif/0002386/full/150,/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.lib.ncsu.edu/iiif/0002386",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://d.lib.ncsu.edu/collections/canvas/0002386",
+          "width": 6239,
+          "height": 4990,
+          "label": "[1]",
+          "images": [
+            {
+              "@id": "https://d.lib.ncsu.edu/collections/canvas/0002386/image",
+              "@type": "oa:Annotation",
+              "on": "https://d.lib.ncsu.edu/collections/canvas/0002386",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.lib.ncsu.edu/iiif/0002386/full/1170,/0/default.jpg",
+                "width": 6239,
+                "height": 4990,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/0002386"
+                },
+                "@type": "dctypes:Image"
+              }
+            }
+          ]
+        }
+      ],
+      "@type": "sc:Sequence",
+      "viewingHint": "non-paged"
+    }
+  ],
+  "seeAlso": [
+    {
+      "@id": "https://d.lib.ncsu.edu/collections/catalog/oai?identifier=ncsul%2F0002386&metadataPrefix=oai_dc&verb=GetRecord",
+      "format": "text/xml",
+      "label": "Dublin Core XML via OAI-PMH"
+    },
+    {
+      "@id": "https://d.lib.ncsu.edu/collections/catalog/0002386/schemaorg.json",
+      "format": "application/ld+json",
+      "profile": "https://schema.org",
+      "label": "Schema.org metadata as JSON-LD"
+    }
+  ],
+  "dcterms:modified": "2022-10-24T14:50:27.000Z",
+  "dcterms:created": "2008-01-14T11:19:07.000Z"
+}
