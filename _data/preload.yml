@@ -1,11 +1,12 @@
 images:
 - ''
-manifests: 
+manifests:
 - ''
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
+version: '2.0'
 vocab:
 - test label no uri
 - label: label with uri
