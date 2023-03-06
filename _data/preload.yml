@@ -1,12 +1,13 @@
 images:
 - ''
 manifests:
-- ''
+- https://iiif-collection.ch.digtest.co.uk/p3/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version: '2.2'
+version:
+- '2.2'
 vocab:
 - test label no uri
 - label: label with uri
