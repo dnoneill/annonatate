@@ -1,16 +1,13 @@
 ---
-thumbnail: null
+thumbnail:
+- !!python/object:IIIFpres.iiifpapi3.thumbnail
+  id: https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv3/KICImage25/full/145,/0/default.jpg
+  label: null
+  service: null
+  type: thumbnail
 title: test v3
 ---
-sentation/3/context.json",
-  "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv3/manifest.json",
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "test v3"
-    ]
-  },
-  "summary": {
+mmary": {
     "en": [
       ""
     ]
@@ -66,15 +63,7 @@ sentation/3/context.json",
       ]
     }
   ]
-}sentation/3/context.json",
-  "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv3/manifest.json",
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "test v3"
-    ]
-  },
-  "summary": {
+}mmary": {
     "en": [
       ""
     ]
