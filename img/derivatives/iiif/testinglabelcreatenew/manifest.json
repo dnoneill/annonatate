@@ -1,14 +1,12 @@
 ---
----
----
 thumbnail: https://dnoneill.github.io/annonatate/img/derivatives/iiif/testinglabelcreatenew/KICImage24/full/145,/0/default.jpg
-title: testing label create new
+title: testinglabelcreatenew
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testinglabelcreatenew/manifest.json",
   "@type": "sc:Manifest",
-  "label": "testing label create new",
+  "label": "testinglabelcreatenew",
   "viewingDirection": "left-to-right",
   "sequences": [
     {
