@@ -1,7 +1,9 @@
 images:
 - ''
 manifests:
-- https://iiif-collection.ch.digtest.co.uk/p3/manifest.json
+- thumbnail: ''
+  title: ''
+  url: https://iiif-collection.ch.digtest.co.uk/p3/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
