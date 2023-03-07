@@ -4,15 +4,11 @@ manifests:
 - thumbnail: ''
   title: ''
   url: https://iiif-collection.ch.digtest.co.uk/p3/manifest.json
-- thumbnail: http://dams.llgc.org.uk/iiif/2.0/4628556/res/4628557.jpg
-  title: The Hengwrt Chaucer, [1395]-[1405]
-  url: http://dams.llgc.org.uk/iiif/2.0/4628556/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version:
-- '2.3'
+version: '2.3'
 vocab:
 - test label no uri
 - label: label with uri
