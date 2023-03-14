@@ -4,14 +4,13 @@ images:
   url: https://upload.wikimedia.org/wikipedia/commons/4/40/Df_ld_0001345.jpg
 - https://upload.wikimedia.org/wikipedia/commons/8/8b/Annona_bullata_2.jpg
 manifests:
-- thumbnail: ''
-  title: ''
-  url: https://iiif-collection.ch.digtest.co.uk/p3/manifest.json
+- ''
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version: '2.3'
+version:
+- '2.3'
 vocab:
 - test label no uri
 - label: label with uri
