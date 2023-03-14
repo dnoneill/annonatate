@@ -4,12 +4,15 @@ images:
   url: https://upload.wikimedia.org/wikipedia/commons/4/40/Df_ld_0001345.jpg
 - https://upload.wikimedia.org/wikipedia/commons/8/8b/Annona_bullata_2.jpg
 manifests:
-- ''
+- thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
+  title: Le Bien public (1. September 1888)
+  url: https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version: '2.3'
+version:
+- '2.3'
 vocab:
 - test label no uri
 - label: label with uri
