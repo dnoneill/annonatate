@@ -7,7 +7,7 @@ layout: null
 {% assign customviews = site.pages | where_exp: 'item', 'item.dir contains "customviews"' | sort_natural %}
 {% assign imagearray = '' | split: "" %}
 {% for image in images %}
-{% unless image contains 'assets' %}
+{% unless image contains 'assets' or image contains 'derivatives'%}
  {% assign item = image | prepend: site.baseurl | prepend: site.url %}
  {% assign imagearray = imagearray | push: item %}
 {% endunless %}
