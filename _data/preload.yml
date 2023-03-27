@@ -5,6 +5,9 @@ images:
 - https://upload.wikimedia.org/wikipedia/commons/8/8b/Annona_bullata_2.jpg
 - https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
 manifests:
+- thumbnail: https://ids.lib.harvard.edu/ids/iiif/7766501/full/120,/0/default.jpg
+  title: Harvard University, Harvard Map Collection, G6004_A5_1690_S7_5939323912
+  url: https://iiif.lib.harvard.edu/manifests/ids:7766501
 - thumbnail: https://ids.lib.harvard.edu/ids/iiif/48309544/full/120,/0/default.jpg
   title: "Chronique du monde depuis la cr\xE9ation, et des rois de France et d'Angleterre,\
     \ jusqu'\xE0 l'an 1461: manuscript, [ca. 1461]. MS Typ 41. Houghton Library, Harvard\
