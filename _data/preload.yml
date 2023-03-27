@@ -5,6 +5,11 @@ images:
 - https://upload.wikimedia.org/wikipedia/commons/8/8b/Annona_bullata_2.jpg
 - https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
 manifests:
+- thumbnail: https://ids.lib.harvard.edu/ids/iiif/48309544/full/120,/0/default.jpg
+  title: "Chronique du monde depuis la cr\xE9ation, et des rois de France et d'Angleterre,\
+    \ jusqu'\xE0 l'an 1461: manuscript, [ca. 1461]. MS Typ 41. Houghton Library, Harvard\
+    \ University, Cambridge, Mass."
+  url: https://iiif.lib.harvard.edu/manifests/drs:48309543
 - thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
   title: Le Bien public (1. September 1888)
   url: https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
