@@ -1,12 +1,23 @@
 images:
-- https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
-- https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
+- iiif: false
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
+  title: ''
+  url: https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
+- iiif: false
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
+  title: ''
+  url: https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
 - thumbnail: https://upload.wikimedia.org/wikipedia/commons/4/40/Df_ld_0001345.jpg
   title: Test image
   url: https://upload.wikimedia.org/wikipedia/commons/4/40/Df_ld_0001345.jpg
-- https://upload.wikimedia.org/wikipedia/commons/8/8b/Annona_bullata_2.jpg
-- https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
-manifests:
+- iiif: false
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/8/8b/Annona_bullata_2.jpg
+  title: ''
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Annona_bullata_2.jpg
+- iiif: true
+  thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
+  title: Le Bien public (1. September 1888)
+  url: https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
 - thumbnail: https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/i/?IIIF=/7b/22/1f/d3/7b221fd3-91f2-48fc-b08d-246be0105b38/iiif/627656201_MS0193_0006.tif/full/!256,256/0/default.jpg
   title: "Recueil de trait\xE9s grammaticaux"
   url: https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/iiif/18101/manifest
@@ -28,7 +39,7 @@ settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version: '2.4'
+version: '2.5'
 vocab:
 - test label no uri
 - label: label with uri
