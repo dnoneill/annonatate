@@ -1,0 +1,34 @@
+---
+canvas: "https://stacks.stanford.edu/image/iiif/wh234bz9013%252Fwh234bz9013_05_0001/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "ellipse",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2023-03-31T19:57:44.549Z",
+            "modified": "2023-03-31T19:57:48.395Z"
+        }
+    ],
+    "target": {
+        "source": "https://stacks.stanford.edu/image/iiif/wh234bz9013%252Fwh234bz9013_05_0001/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"1898.9745483398438\" cy=\"1682.7978515625\" rx=\"354.87579345703125\" ry=\"618.170654296875\"></ellipse></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/manifests/manifests/wh234bz9013%252Fwh234bz9013_05_0001/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1460b362-0b88-4c9f-af0b-5ca7057b3603.json",
+    "motivation": "commenting"
+}
