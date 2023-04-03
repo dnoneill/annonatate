@@ -20,12 +20,11 @@ images:
 - thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
   title: Le Bien public (1. September 1888)
   url: https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
-manifests: []
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version: '1.1'
+version: '1.0'
 vocab:
 - test label no uri
 - label: label with uri
