@@ -3,10 +3,6 @@ images:
   thumbnail: https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
   title: ''
   url: https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
-- iiif: false
-  thumbnail: https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
-  title: ''
-  url: https://iiif.lib.ncsu.edu/iiif/bh014910701/full/full/0/default.jpg
 - thumbnail: https://upload.wikimedia.org/wikipedia/commons/4/40/Df_ld_0001345.jpg
   title: Test image
   url: https://upload.wikimedia.org/wikipedia/commons/4/40/Df_ld_0001345.jpg
