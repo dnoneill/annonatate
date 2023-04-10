@@ -1,4 +1,9 @@
 images:
+- iiif: false
+  order: 11
+  thumbnail: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg
+  title: ''
+  url: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg
 - iiif: true
   order: 10
   thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
