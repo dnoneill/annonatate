@@ -1,7 +1,30 @@
 ---
-order: 26
-thumbnail: ''
-title: ''
+order: 27
+thumbnail:
+- format: image/jpeg
+  height: 2018
+  id: https://research.ng-london.org.uk/iiif/pics/pyramids/technicalbulletin/volume_31/N-0296_dirrO_0_a_AT-PYR.tif/full/1550,2018/0/default.jpg
+  service:
+  - '@id': https://research.ng-london.org.uk/iiif/pics/pyramids/technicalbulletin/volume_31/N-0296_dirrO_0_a_AT-PYR.tif
+    '@type': type
+    height: 4036
+    profile: http://iiif.io/api/image/2/level1.json
+    sizes:
+    - - height: 252
+        width: 193
+      - height: 504
+        width: 387
+      - height: 1009
+        width: 775
+      - height: 2018
+        width: 1550
+    width: 3100
+  type: Image
+  width: 1550
+title:
+- en:
+  - 'In Search of Verrocchio the Painter: The Cleaning and Examination of ''The Virgin
+    and Child with Two Angels'''
 
 ---
 {
