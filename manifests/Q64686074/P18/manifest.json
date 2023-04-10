@@ -1,0 +1,150 @@
+---
+order: 18
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/94/Musical_party.jpg
+title: !!python/object/apply:collections.OrderedDict
+- - - '@value'
+    - musical party
+  - - '@language'
+    - en
+
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/manifests/Q64686074/P18/manifest.json",
+  "@type": "sc:Manifest",
+  "description": {
+    "@language": "en",
+    "@value": "painting by British School"
+  },
+  "label": {
+    "@language": "en",
+    "@value": "musical party"
+  },
+  "metadata": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "title"
+      },
+      "value": "<span lang=\"en\" class=\"wb-monolingualtext-value\">musical party</span> <span class=\"wb-monolingualtext-language-name\" dir=\"auto\">(English)</span>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inception"
+      },
+      "value": "1880s"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "made from material"
+      },
+      "value": "<a title=\"Q296955\" href=\"/wiki/Q296955\">oil paint</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "made from material"
+      },
+      "value": "<a title=\"Q12321255\" href=\"/wiki/Q12321255\">canvas</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "height"
+      },
+      "value": "58.5 <span class=\"wb-unit\">centimetre</span>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "width"
+      },
+      "value": "47 <span class=\"wb-unit\">centimetre</span>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "collection"
+      },
+      "value": "<a title=\"Q23817605\" href=\"/wiki/Q23817605\">National Library of Wales Framed works of art collection</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "collection"
+      },
+      "value": "<a title=\"Q666063\" href=\"/wiki/Q666063\">National Library of Wales</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "location"
+      },
+      "value": "<a title=\"Q85098865\" href=\"/wiki/Q85098865\">National Library of Wales</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "genre"
+      },
+      "value": "<a title=\"Q134307\" href=\"/wiki/Q134307\">portrait</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "main subject"
+      },
+      "value": "<a title=\"Q182832\" href=\"/wiki/Q182832\">concert</a>"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://wd-image-positions.toolforge.org/iiif/Q64686074/P18/sequence/normal.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://wd-image-positions.toolforge.org/iiif/Q64686074/P18/canvas/c0.json",
+          "@type": "sc:Canvas",
+          "height": 1484,
+          "images": [
+            {
+              "@id": "https://wd-image-positions.toolforge.org/iiif/Q64686074/P18/annotation/a0.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://wd-image-positions.toolforge.org/iiif/Q64686074/P18/canvas/c0.json",
+              "resource": {
+                "@id": "https://upload.wikimedia.org/wikipedia/commons/9/94/Musical_party.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1484,
+                "width": 1200
+              }
+            }
+          ],
+          "label": {
+            "@language": "en",
+            "@value": "musical party"
+          },
+          "otherContent": [
+            {
+              "@id": "https://wd-image-positions.toolforge.org/iiif/Q64686074/P18/list/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Things depicted on this canvas"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Musical_party.jpg/400px-Musical party.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "height": 494,
+            "width": 400
+          },
+          "width": 1200
+        }
+      ],
+      "label": "default order"
+    }
+  ]
+}
