@@ -1,0 +1,199 @@
+---
+order: 19
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg
+title: !!python/object/apply:collections.OrderedDict
+- - - '@value'
+    - The Coronation of Napoleon
+  - - '@language'
+    - en
+
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/manifests/Q1231009/P18/manifest.json",
+  "@type": "sc:Manifest",
+  "description": {
+    "@language": "en",
+    "@value": "painting completed in 1807 by Jacques-Louis David"
+  },
+  "label": {
+    "@language": "en",
+    "@value": "The Coronation of Napoleon"
+  },
+  "metadata": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "creator"
+      },
+      "value": "<a title=\"Q83155\" href=\"/wiki/Q83155\">Jacques-Louis David</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "title"
+      },
+      "value": "<span lang=\"fr\" class=\"wb-monolingualtext-value\">Sacre de l&#39;empereur Napol\u00e9on Ier et couronnement de l&#39;imp\u00e9ratrice Jos\u00e9phine dans la cath\u00e9drale Notre-Dame de Paris, le 2 d\u00e9cembre 1804</span> <span class=\"wb-monolingualtext-language-name\" dir=\"auto\">(French)</span>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inception"
+      },
+      "value": "November 1808<sup class=\"wb-calendar-name\">Gregorian</sup>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "made from material"
+      },
+      "value": "<a title=\"Q296955\" href=\"/wiki/Q296955\">oil paint</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "made from material"
+      },
+      "value": "<a title=\"Q12321255\" href=\"/wiki/Q12321255\">canvas</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "height"
+      },
+      "value": "621 <span class=\"wb-unit\">centimetre</span>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "width"
+      },
+      "value": "979 <span class=\"wb-unit\">centimetre</span>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "commissioned by"
+      },
+      "value": "<a title=\"Q517\" href=\"/wiki/Q517\">Napoleon</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "owned by"
+      },
+      "value": "<a title=\"Q83155\" href=\"/wiki/Q83155\">Jacques-Louis David</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "owned by"
+      },
+      "value": "<a title=\"Q3591845\" href=\"/wiki/Q3591845\">French State</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "collection"
+      },
+      "value": "<a title=\"Q3044768\" href=\"/wiki/Q3044768\">Department of Paintings of the Louvre</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "location"
+      },
+      "value": "<a title=\"Q4032340\" href=\"/wiki/Q4032340\">Room 702</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "location"
+      },
+      "value": "<a title=\"Q3469929\" href=\"/wiki/Q3469929\">Sacre Hall</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inscription"
+      },
+      "value": "<span lang=\"fr\" class=\"wb-monolingualtext-value\">L. David.F.ebat</span> <span class=\"wb-monolingualtext-language-name\" dir=\"auto\">(French)</span>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inscription"
+      },
+      "value": "<span lang=\"fr\" class=\"wb-monolingualtext-value\">1806 et 1807</span> <span class=\"wb-monolingualtext-language-name\" dir=\"auto\">(French)</span>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "genre"
+      },
+      "value": "<a title=\"Q742333\" href=\"/wiki/Q742333\">history painting</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "movement"
+      },
+      "value": "<a title=\"Q37068\" href=\"/wiki/Q37068\">Romanticism</a>"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "main subject"
+      },
+      "value": "<a title=\"Q973118\" href=\"/wiki/Q973118\">coronation of Napoleon I</a>"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://wd-image-positions.toolforge.org/iiif/Q1231009/P18/sequence/normal.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://wd-image-positions.toolforge.org/iiif/Q1231009/P18/canvas/c0.json",
+          "@type": "sc:Canvas",
+          "height": 3773,
+          "images": [
+            {
+              "@id": "https://wd-image-positions.toolforge.org/iiif/Q1231009/P18/annotation/a0.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://wd-image-positions.toolforge.org/iiif/Q1231009/P18/canvas/c0.json",
+              "resource": {
+                "@id": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3773,
+                "width": 6000
+              }
+            }
+          ],
+          "label": {
+            "@language": "en",
+            "@value": "The Coronation of Napoleon"
+          },
+          "otherContent": [
+            {
+              "@id": "https://wd-image-positions.toolforge.org/iiif/Q1231009/P18/list/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Things depicted on this canvas"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/400px-Jacques-Louis David - The Coronation of Napoleon (1805-1807).jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "height": 251,
+            "width": 400
+          },
+          "width": 6000
+        }
+      ],
+      "label": "default order"
+    }
+  ]
+}
