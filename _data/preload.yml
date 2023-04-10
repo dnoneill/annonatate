@@ -1,5 +1,9 @@
 images:
 - iiif: true
+  thumbnail: ''
+  title: ''
+  url: https://iiif-collection.ch.digtest.co.uk/p3/manifest.json
+- iiif: true
   thumbnail: https://research.ng-london.org.uk/iiif-int/pics/pyrByDate/2010/03/04/N-1383-00-000046-PYR.tif/full/954,1122/0/default.jpg
   title:
   - en:
