@@ -1,5 +1,12 @@
 images:
 - iiif: true
+  thumbnail: https://research.ng-london.org.uk/iiif-int/pics/pyrByDate/2010/03/04/N-1383-00-000046-PYR.tif/full/954,1122/0/default.jpg
+  title:
+  - en:
+    - 'NG1383: Johannes Vermeer, A Young Woman standing at a Virginal'
+  url: https://research.ng-london.org.uk/iiif-projects/json/ng1383.json
+- iiif: true
+  order: 24
   thumbnail: https://research.ng-london.org.uk/iiif-int/pics/pyrByDate/2010/03/04/N-0296-00-000094-PYR.tif/full/1208,1780/0/default.jpg
   title:
   - en:
