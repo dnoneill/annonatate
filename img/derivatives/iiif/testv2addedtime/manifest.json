@@ -1,0 +1,47 @@
+---
+added: 2023-04-10 19:06:59.427348
+thumbnail: https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2addedtime/Viewafterclickingediticoninrighthandcornerofmyimagesheadingthisallowsuserstodeleteitems/full/113,/0/default.jpg
+title: test v2 added time
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2addedtime/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "test v2 added time",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://dnoneill.github.io/annonatate/canvas/img/derivatives/iiif/testv2addedtime/Viewafterclickingediticoninrighthandcornerofmyimagesheadingthisallowsuserstodeleteitems.json",
+          "@type": "sc:Canvas",
+          "label": "View after clicking edit icon in right hand corner of my images heading, this allows users to delete items.",
+          "thumbnail": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2addedtime/Viewafterclickingediticoninrighthandcornerofmyimagesheadingthisallowsuserstodeleteitems/full/113,/0/default.jpg",
+          "height": 1366,
+          "width": 1808,
+          "images": [
+            {
+              "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2addedtime/Viewafterclickingediticoninrighthandcornerofmyimagesheadingthisallowsuserstodeleteitems/annotation/1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2addedtime/Viewafterclickingediticoninrighthandcornerofmyimagesheadingthisallowsuserstodeleteitems/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1366,
+                "width": 1808,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2addedtime/Viewafterclickingediticoninrighthandcornerofmyimagesheadingthisallowsuserstodeleteitems",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://dnoneill.github.io/annonatate/canvas/img/derivatives/iiif/testv2addedtime/Viewafterclickingediticoninrighthandcornerofmyimagesheadingthisallowsuserstodeleteitems.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
