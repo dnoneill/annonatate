@@ -1,0 +1,25 @@
+---
+order: 20
+thumbnail: ''
+title: ''
+
+---
+{
+  "@id": "https://dnoneill.github.io/annonatate/manifests/webannotations/range.json/manifest.json",
+  "@type": "sc:Range",
+  "label": "Manuscrit reconstitu\u00e9 : Ch\u00e2teauroux, Biblioth\u00e8que municipale, ms. 5 (Grandes Chroniques de France)",
+  "contentLayer": {
+    "otherContent": [
+      {
+        "@id": "https://dnoneill.github.io/annotate/annotations/4490-canvas-981394-list.json",
+        "description": "",
+        "label": "Manuscrit reconstitu\u00e9 : Ch\u00e2teauroux, Biblioth\u00e8que municipale, ms. 5 (Grandes Chroniques de France): f. 033v - 034"
+      },
+      {
+        "@id": "https://dnoneill.github.io/annotate/annotations/4490-canvas-981395-list.json",
+        "description": "",
+        "label": "Manuscrit reconstitu\u00e9 : Ch\u00e2teauroux, Biblioth\u00e8que municipale, ms. 5 (Grandes Chroniques de France): f. 034v - 035"
+      }
+    ]
+  }
+}
