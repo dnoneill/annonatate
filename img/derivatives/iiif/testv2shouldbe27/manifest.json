@@ -1,0 +1,47 @@
+---
+order: 28
+thumbnail: https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2shouldbe27/Viewafterclickingonuseexeternallinkthereisabackbuttontogobacktotheotheroptions/full/113,/0/default.jpg
+title: test v2 should be 27
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2shouldbe27/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "test v2 should be 27",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://dnoneill.github.io/annonatate/canvas/img/derivatives/iiif/testv2shouldbe27/Viewafterclickingonuseexeternallinkthereisabackbuttontogobacktotheotheroptions.json",
+          "@type": "sc:Canvas",
+          "label": "View after clicking on %27use exeternal link%27, there is a back button to go back to the other options.",
+          "thumbnail": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2shouldbe27/Viewafterclickingonuseexeternallinkthereisabackbuttontogobacktotheotheroptions/full/113,/0/default.jpg",
+          "height": 1470,
+          "width": 1804,
+          "images": [
+            {
+              "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2shouldbe27/Viewafterclickingonuseexeternallinkthereisabackbuttontogobacktotheotheroptions/annotation/1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2shouldbe27/Viewafterclickingonuseexeternallinkthereisabackbuttontogobacktotheotheroptions/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1470,
+                "width": 1804,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testv2shouldbe27/Viewafterclickingonuseexeternallinkthereisabackbuttontogobacktotheotheroptions",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://dnoneill.github.io/annonatate/canvas/img/derivatives/iiif/testv2shouldbe27/Viewafterclickingonuseexeternallinkthereisabackbuttontogobacktotheotheroptions.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
