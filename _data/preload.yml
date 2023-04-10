@@ -24,7 +24,7 @@ settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version: '1.0'
+version: '1.1'
 vocab:
 - test label no uri
 - label: label with uri
