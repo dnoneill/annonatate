@@ -1,4 +1,10 @@
 images:
+- iiif: true
+  thumbnail: https://research.ng-london.org.uk/iiif/pics/pyramids/technicalbulletin/volume_31/N-3927_dirr_a_MR-PYR.tif/full/1206,1576/0/default.jpg
+  title:
+  - en:
+    - 'The Virgin and Child with an Angel'', after Francia: A History of Error'
+  url: https://research.ng-london.org.uk/iiif-projects/json/roy_mancini2010.json
 - added: 2023-04-10 14:58:06 +0000
   iiif: true
   thumbnail: https://api.bl.uk/image/iiif/ark:/81055/vdc_100111986309.0x000001/full/max/0/default.jpg
@@ -40,6 +46,7 @@ images:
 - thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
   title: Le Bien public (1. September 1888)
   url: https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
+manifests: []
 settings:
   tempuser: notenabled
   viewer: default
