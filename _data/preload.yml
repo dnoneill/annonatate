@@ -59,11 +59,6 @@ images:
 - thumbnail: https://ids.lib.harvard.edu/ids/iiif/7766501/full/120,/0/default.jpg
   title: Harvard University, Harvard Map Collection, G6004_A5_1690_S7_5939323912
   url: https://iiif.lib.harvard.edu/manifests/ids:7766501
-- thumbnail: https://ids.lib.harvard.edu/ids/iiif/48309544/full/120,/0/default.jpg
-  title: "Chronique du monde depuis la cr\xE9ation, et des rois de France et d'Angleterre,\
-    \ jusqu'\xE0 l'an 1461: manuscript, [ca. 1461]. MS Typ 41. Houghton Library, Harvard\
-    \ University, Cambridge, Mass."
-  url: https://iiif.lib.harvard.edu/manifests/drs:48309543
 manifests: []
 settings:
   tempuser: notenabled
