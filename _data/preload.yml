@@ -11,11 +11,6 @@ images:
     \ Auslieferung derer Deserteurs und anderen militarischen Misseth\xE4ter (dto.\
     \ Mayntz den 6. Februarii 1747)."
   url: https://iiif.onb.ac.at/presentation/ABO/+Z196807705/manifest/
-- added: 2023-04-11 12:46:20 +0000
-  iiif: true
-  thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
-  title: Le Bien public (1. September 1888)
-  url: https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
 manifests: []
 settings:
   tempuser: notenabled
