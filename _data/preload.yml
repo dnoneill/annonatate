@@ -4,29 +4,24 @@ images:
   thumbnail: https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/i/?IIIF=/7b/22/1f/d3/7b221fd3-91f2-48fc-b08d-246be0105b38/iiif/627656201_MS0193_0006.tif/full/!256,256/0/default.jpg
   title: "Recueil de trait\xE9s grammaticaux"
   url: https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/iiif/18101/manifest
-- added: 2023-04-11 14:00:14.117987
+- added: 2023-04-11 14:00:14 +0000
   iiif: true
   thumbnail: https://ids.lib.harvard.edu/ids/iiif/38847172/full/120,/0/default.jpg
   title: Harvard University, Harvard Map Collection, G7960_1801_N35
   url: https://iiif.lib.harvard.edu/manifests/ids:38847172
-- added: 2023-04-11 13:59:09.632480
+- added: 2023-04-11 13:59:09 +0000
   iiif: true
   thumbnail: https://iiif.onb.ac.at/images/ABO/Z196807705/00000001/full/120,/0/native.jpg
   title: "Cartel zwischen ... und Ihro Churf\xFCrstlichen Gnaden zu Mayntz, wegen\
     \ Auslieferung derer Deserteurs und anderen militarischen Misseth\xE4ter (dto.\
     \ Mayntz den 6. Februarii 1747)."
   url: https://iiif.onb.ac.at/presentation/ABO/+Z196807705/manifest/
-- added: 2023-04-11 13:00:46.647082
+- added: 2023-04-11 13:00:46 +0000
   iiif: true
   thumbnail: http://dams.llgc.org.uk/iiif/2.0/4628556/res/4628557.jpg
   title: The Hengwrt Chaucer, [1395]-[1405]
   url: http://dams.llgc.org.uk/iiif/2.0/4628556/manifest.json
-- added: 2023-04-11 12:49:38.189021
-  iiif: true
-  thumbnail: http://dams.llgc.org.uk/iiif/2.0/4628556/res/4628557.jpg
-  title: The Hengwrt Chaucer, [1395]-[1405]
-  url: http://dams.llgc.org.uk/iiif/2.0/4628556/manifest.json
-- added: 2023-04-11 12:46:20.0000
+- added: 2023-04-11 12:46:20 +0000
   iiif: true
   thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
   title: Le Bien public (1. September 1888)
