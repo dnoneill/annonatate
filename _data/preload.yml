@@ -1,4 +1,9 @@
 images:
+- added: '2023-04-11 14:07:03.299946'
+  iiif: true
+  thumbnail: https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/i/?IIIF=/7b/22/1f/d3/7b221fd3-91f2-48fc-b08d-246be0105b38/iiif/627656201_MS0193_0006.tif/full/!256,256/0/default.jpg
+  title: "Recueil de trait\xE9s grammaticaux"
+  url: https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/iiif/18101/manifest
 - added: 2023-04-11 14:00:14 +117987
   iiif: true
   thumbnail: https://ids.lib.harvard.edu/ids/iiif/38847172/full/120,/0/default.jpg
