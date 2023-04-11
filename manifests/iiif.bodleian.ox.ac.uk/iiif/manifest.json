@@ -1,0 +1,148 @@
+---
+added: 2023-04-11 14:00:28.145468
+thumbnail: https://iiif.bodleian.ox.ac.uk/iiif/image/297462a4-cdba-4b6d-834f-31a2d9fff15b/full/256,/0/default.jpg
+title: Bodleian Library Wood 276b
+
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/manifests/iiif.bodleian.ox.ac.uk/iiif/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Bodleian Library Wood 276b",
+  "description": "Oxforde as it now lyeth: Fortified by his Majesties forces an. 1644.",
+  "metadata": [
+    {
+      "label": "Homepage",
+      "value": "<span><a href=\"https://digital.bodleian.ox.ac.uk/objects/4b7bd5c8-6424-4754-a11a-691d5d34a66f/\">View on Digital Bodleian</a></span>"
+    },
+    {
+      "label": "Title",
+      "value": "Oxforde as it now lyeth: Fortified by his Majesties forces an. 1644."
+    },
+    {
+      "label": "Shelfmark",
+      "value": "Bodleian Library Wood 276b"
+    },
+    {
+      "label": "Former Owner",
+      "value": "Wood, Anthony \u00e0, 1632-1695"
+    },
+    {
+      "label": "Language",
+      "value": "English"
+    },
+    {
+      "label": "Date Statement",
+      "value": "[1644?]"
+    },
+    {
+      "label": "Description",
+      "value": "A copperplate engraving of the fortifications of Oxford during the English Civil War. A handwritten note in the bottom right corner reads, \"This map is made very false\"."
+    },
+    {
+      "label": "Contents Note",
+      "value": "Abingdon, Wallingford, Reading and the principal buildings in Oxford named."
+    },
+    {
+      "label": "Materials",
+      "value": "paper"
+    },
+    {
+      "label": "Extent",
+      "value": "1 map"
+    },
+    {
+      "label": "Scale",
+      "value": "[c. 1:10,000]"
+    },
+    {
+      "label": "Collection",
+      "value": "Maps and Atlases"
+    },
+    {
+      "label": "Record Created",
+      "value": "2019-07-26T15:03:35Z"
+    },
+    {
+      "label": "Holding Institution",
+      "value": "Bodleian Libraries, University of Oxford"
+    }
+  ],
+  "navDate": "1644-01-01T00:00:00Z",
+  "rendering": {
+    "@id": "https://digital.bodleian.ox.ac.uk/objects/4b7bd5c8-6424-4754-a11a-691d5d34a66f/",
+    "label": "View on Digital Bodleian",
+    "format": "text/html"
+  },
+  "attribution": "<span>Photo: \u00a9 Bodleian Libraries, University of Oxford. Terms of use: <a href=\"https://creativecommons.org/licenses/by-nc/4.0/\">CC-BY-NC 4.0</a>. For more information, please see <a href=\"https://digital.bodleian.ox.ac.uk/terms/\">https://digital.bodleian.ox.ac.uk/terms/</a></span>",
+  "logo": {
+    "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71/full/256,/0/default.jpg",
+    "@type": "dctypes:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "profile": "http://iiif.io/api/image/2/level1.json",
+      "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71"
+    }
+  },
+  "thumbnail": {
+    "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/297462a4-cdba-4b6d-834f-31a2d9fff15b/full/256,/0/default.jpg",
+    "@type": "dctypes:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "profile": "http://iiif.io/api/image/2/level1.json",
+      "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/297462a4-cdba-4b6d-834f-31a2d9fff15b"
+    }
+  },
+  "viewingHint": "paged",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@id": "https://iiif.bodleian.ox.ac.uk/iiif/sequence/4b7bd5c8-6424-4754-a11a-691d5d34a66f_default.json",
+      "@type": "sc:Sequence",
+      "label": "Default",
+      "canvases": [
+        {
+          "@id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/297462a4-cdba-4b6d-834f-31a2d9fff15b.json",
+          "@type": "sc:Canvas",
+          "label": "fol. 30r",
+          "width": 4957,
+          "height": 6195,
+          "images": [
+            {
+              "@id": "https://iiif.bodleian.ox.ac.uk/iiif/annotation/297462a4-cdba-4b6d-834f-31a2d9fff15b.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/297462a4-cdba-4b6d-834f-31a2d9fff15b.json",
+              "resource": {
+                "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/297462a4-cdba-4b6d-834f-31a2d9fff15b",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4957,
+                "height": 6195,
+                "service": {
+                  "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/297462a4-cdba-4b6d-834f-31a2d9fff15b",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "https://iiif.bodleian.ox.ac.uk/iiif/range/4b7bd5c8-6424-4754-a11a-691d5d34a66f/LOG_0000",
+      "@type": "sc:Range",
+      "label": "Wood 276b",
+      "viewingHint": "top",
+      "canvases": [
+        "https://iiif.bodleian.ox.ac.uk/iiif/canvas/297462a4-cdba-4b6d-834f-31a2d9fff15b.json"
+      ],
+      "startCanvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/297462a4-cdba-4b6d-834f-31a2d9fff15b.json"
+    }
+  ]
+}
