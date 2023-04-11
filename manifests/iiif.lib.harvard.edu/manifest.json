@@ -1,0 +1,57 @@
+---
+added: '2023-04-11 14:07:39.739921'
+thumbnail: https://ids.lib.harvard.edu/ids/iiif/7766501/full/120,/0/default.jpg
+title: Harvard University, Harvard Map Collection, G6004_A5_1690_S7_5939323912
+
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/manifests/iiif.lib.harvard.edu/manifest.json",
+  "@type": "sc:Manifest",
+  "attribution": "Provided by Harvard University",
+  "label": "Harvard University, Harvard Map Collection, G6004_A5_1690_S7_5939323912",
+  "license": "https://nrs.harvard.edu/urn-3:HUL.eother:idscopyright",
+  "logo": "https://iiif.lib.harvard.edu/static/manifests/harvard_logo.jpg",
+  "sequences": [
+    {
+      "@id": "https://iiif.lib.harvard.edu/manifests/ids:7766501/sequence/normal.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.lib.harvard.edu/manifests/ids:7766501/canvas/canvas-7766501.json",
+          "@type": "sc:Canvas",
+          "height": 6676,
+          "images": [
+            {
+              "@id": "https://iiif.lib.harvard.edu/manifests/ids:7766501/annotation/anno-7766501.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:7766501/canvas/canvas-7766501.json",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/7766501/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/7766501",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 7744
+              }
+            }
+          ],
+          "label": "Harvard University, Harvard Map Collection, G6004_A5_1690_S7_5939323912",
+          "thumbnail": {
+            "@id": "https://ids.lib.harvard.edu/ids/iiif/7766501/full/,150/0/default.jpg",
+            "@type": "dctypes:Image"
+          },
+          "width": 7744
+        }
+      ],
+      "label": "Harvard University, Harvard Map Collection, G6004_A5_1690_S7_5939323912",
+      "startCanvas": "https://iiif.lib.harvard.edu/manifests/ids:7766501/canvas/canvas-7766501.json",
+      "viewingHint": "individuals"
+    }
+  ]
+}
