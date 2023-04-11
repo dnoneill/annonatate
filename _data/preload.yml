@@ -49,10 +49,6 @@ images:
 - thumbnail: https://upload.wikimedia.org/wikipedia/commons/4/40/Df_ld_0001345.jpg
   title: Test image
   url: https://upload.wikimedia.org/wikipedia/commons/4/40/Df_ld_0001345.jpg
-- iiif: false
-  thumbnail: https://upload.wikimedia.org/wikipedia/commons/8/8b/Annona_bullata_2.jpg
-  title: ''
-  url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Annona_bullata_2.jpg
 manifests: []
 settings:
   tempuser: notenabled
