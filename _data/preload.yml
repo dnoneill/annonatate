@@ -1,4 +1,11 @@
 images:
+- added: 2023-04-11 13:59:09 +632480
+  iiif: true
+  thumbnail: https://iiif.onb.ac.at/images/ABO/Z196807705/00000001/full/120,/0/native.jpg
+  title: "Cartel zwischen ... und Ihro Churf\xFCrstlichen Gnaden zu Mayntz, wegen\
+    \ Auslieferung derer Deserteurs und anderen militarischen Misseth\xE4ter (dto.\
+    \ Mayntz den 6. Februarii 1747)."
+  url: https://iiif.onb.ac.at/presentation/ABO/+Z196807705/manifest/
 - added: 2023-04-11 13:00:46 +647082
   iiif: true
   thumbnail: http://dams.llgc.org.uk/iiif/2.0/4628556/res/4628557.jpg
