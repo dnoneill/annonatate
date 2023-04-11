@@ -5,13 +5,6 @@ images:
   - en:
     - 'NG1383: Johannes Vermeer, A Young Woman standing at a Virginal'
   url: https://research.ng-london.org.uk/iiif-projects/json/ng1383.json
-- iiif: true
-  order: 24
-  thumbnail: https://research.ng-london.org.uk/iiif-int/pics/pyrByDate/2010/03/04/N-0296-00-000094-PYR.tif/full/1208,1780/0/default.jpg
-  title:
-  - en:
-    - 'NG296: Lorenzo di Credi, The Virgin and Child with Two Angels'
-  url: https://research.ng-london.org.uk/iiif-projects/json/ng296.json
 - added: 2023-04-10 14:58:06 +0000
   iiif: true
   thumbnail: https://api.bl.uk/image/iiif/ark:/81055/vdc_100111986309.0x000001/full/max/0/default.jpg
