@@ -1,4 +1,9 @@
 images:
+- added: 2023-04-11 14:00:14 +117987
+  iiif: true
+  thumbnail: https://ids.lib.harvard.edu/ids/iiif/38847172/full/120,/0/default.jpg
+  title: Harvard University, Harvard Map Collection, G7960_1801_N35
+  url: https://iiif.lib.harvard.edu/manifests/ids:38847172
 - added: 2023-04-11 13:59:09 +632480
   iiif: true
   thumbnail: https://iiif.onb.ac.at/images/ABO/Z196807705/00000001/full/120,/0/native.jpg
