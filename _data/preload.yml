@@ -1,9 +1,4 @@
 images:
-- added: '2023-04-11 16:14:08.358963'
-  iiif: true
-  thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
-  title: Le Bien public (1. September 1888)
-  url: https://www.e-newspaperarchives.ch//iiif/issue/LBP18880901-01/manifest.json
 - added: 2023-04-11 14:00:14 +0000
   iiif: true
   thumbnail: https://ids.lib.harvard.edu/ids/iiif/38847172/full/120,/0/default.jpg
