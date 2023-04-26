@@ -3,32 +3,32 @@ canvas: "https://iiif.lib.harvard.edu/manifests/ids:7766501/canvas/canvas-776650
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test",
-            "purpose": "commenting",
+            "created": "2023-04-26T17:46:34.688Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2023-04-26T17:46:34.688Z",
-            "modified": "2023-04-26T17:46:35.058Z"
+            "modified": "2023-04-26T17:46:35.058Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test"
         }
     ],
+    "id": "905db4d2-4106-4c40-9dd7-083a3bed7eff.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://iiif.lib.harvard.edu/manifests/ids:7766501/canvas/canvas-7766501.json",
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annonatate/manifests/iiif.lib.harvard.edu/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><circle cx=\"4037.3961181640625\" cy=\"1328.18310546875\" r=\"589.3963622809224\"></circle></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://dnoneill.github.io/annonatate/manifests/iiif.lib.harvard.edu/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://iiif.lib.harvard.edu/manifests/ids:7766501/canvas/canvas-7766501.json"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "905db4d2-4106-4c40-9dd7-083a3bed7eff.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
