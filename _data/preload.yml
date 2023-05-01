@@ -16,12 +16,11 @@ images:
     \ Auslieferung derer Deserteurs und anderen militarischen Misseth\xE4ter (dto.\
     \ Mayntz den 6. Februarii 1747)."
   url: https://iiif.onb.ac.at/presentation/ABO/+Z196807705/manifest/
-manifests: []
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version: '1.1'
+version: '2.0'
 vocab:
 - test label no uri
 - label: label with uri
