@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/twelvepageoldmethod//mc00026001bx0001018000-3",
+  "height": 1545,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 386,
+      "width": 304
+    },
+    {
+      "height": 193,
+      "width": 152
+    },
+    {
+      "height": 97,
+      "width": 76
+    },
+    {
+      "height": 48,
+      "width": 38
+    },
+    {
+      "height": 24,
+      "width": 19
+    },
+    {
+      "height": 12,
+      "width": 9
+    },
+    {
+      "height": 6,
+      "width": 5
+    },
+    {
+      "height": 3,
+      "width": 2
+    },
+    {
+      "height": 2,
+      "width": 1
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2
+      ],
+      "width": 512
+    }
+  ],
+  "width": 1214
+}
