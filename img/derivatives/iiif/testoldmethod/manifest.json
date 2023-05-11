@@ -1,0 +1,296 @@
+---
+added: 2023-05-11 22&#58;25&#58;35.893849
+thumbnail: https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230424at45014PM/full/195,/0/default.jpg
+title: test old method
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "test old method"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Screenshot 2023-04-24 at 4.50.14 PM"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230424at45014PM/full/195,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 426,
+      "width": 1556,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230424at45014PM/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 426,
+                "width": 1556,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230424at45014PM",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Screenshot 2023-05-08 at 1.56.32 PM"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230508at15632PM/full/162,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1444,
+      "width": 2598,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230508at15632PM/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1444,
+                "width": 2598,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230508at15632PM",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Screenshot 2023-05-09 at 12.45.17 PM"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230509at124517PM/full/104,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1388,
+      "width": 1662,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230509at124517PM/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1388,
+                "width": 1662,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230509at124517PM",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Screenshot 2023-05-10 at 8.42.14 AM"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230510at84214AM/full/172,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1406,
+      "width": 2756,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/page/p4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/annotation/p0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230510at84214AM/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1406,
+                "width": 2756,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230510at84214AM",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Screenshot 2023-05-10 at 8.42.22 AM"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230510at84222AM/full/171,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1416,
+      "width": 2742,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/page/p5/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/annotation/p0005-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230510at84222AM/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1416,
+                "width": 2742,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230510at84222AM",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Screenshot 2023-05-10 at 8.52.50 AM"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230510at85250AM/full/172,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1348,
+      "width": 2756,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/page/p6/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/annotation/p0006-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230510at85250AM/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1348,
+                "width": 2756,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/Screenshot20230510at85250AM",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testoldmethod/canvas/testoldmethod-6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
