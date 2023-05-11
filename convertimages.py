@@ -5,6 +5,7 @@ import os
 from pdf2image import convert_from_path
 from iiif_prezi.factory import ManifestFactory
 import yaml
+import concurrent.futures
 
 files = [('images/Screenshot20230424at45014PM.png', 'Screenshot 2023-04-24 at 4.50.14 PM'), ('images/Screenshot20230508at15632PM.png', 'Screenshot 2023-05-08 at 1.56.32 PM'), ('images/Screenshot20230509at124517PM.png', 'Screenshot 2023-05-09 at 12.45.17 PM'), ('images/Screenshot20230510at84214AM.png', 'Screenshot 2023-05-10 at 8.42.14 AM'), ('images/Screenshot20230510at84222AM.png', 'Screenshot 2023-05-10 at 8.42.22 AM'), ('images/Screenshot20230510at85250AM.png', 'Screenshot 2023-05-10 at 8.52.50 AM')]
 manifestlabel = '''test'''
