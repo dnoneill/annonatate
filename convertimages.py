@@ -7,9 +7,9 @@ from iiif_prezi.factory import ManifestFactory
 import yaml
 import concurrent.futures
 
-files = [('images/Screenshot20230424at45014PM.png', 'Screenshot 2023-04-24 at 4.50.14 PM'), ('images/Screenshot20230508at15632PM.png', 'Screenshot 2023-05-08 at 1.56.32 PM'), ('images/Screenshot20230509at124517PM.png', 'Screenshot 2023-05-09 at 12.45.17 PM'), ('images/Screenshot20230510at84214AM.png', 'Screenshot 2023-05-10 at 8.42.14 AM'), ('images/Screenshot20230510at84222AM.png', 'Screenshot 2023-05-10 at 8.42.22 AM'), ('images/Screenshot20230510at85250AM.png', 'Screenshot 2023-05-10 at 8.52.50 AM')]
-manifestlabel = '''test'''
-dst = os.path.join('img/derivatives/iiif/', 'test') + '/'
+files = [('images/mc00026001bx0001018000.pdf', 'mc00026-001-bx0001-018-000')]
+manifestlabel = '''twelve page new method'''
+dst = os.path.join('img/derivatives/iiif/', 'twelvepagenewmethod') + '/'
 baseurl = os.path.join('https://dnoneill.github.io/annonatate/', dst)
 data = []
 allfiles = []
@@ -73,7 +73,7 @@ data = tuple(data)
 for idx,d in enumerate(data):
     idx+=1
     canvas = manifest.add_canvas_to_items()
-    canvas.set_id(extendbase_url='canvas/test-%s'%idx)
+    canvas.set_id(extendbase_url='canvas/twelvepagenewmethod-%s'%idx)
     canvas.set_height(d[2])
     canvas.set_width(d[1])
     canvas.add_label('en', d[5])
@@ -101,7 +101,7 @@ manifestpath = os.path.join(dst, 'manifest.json')
 manifest.json_save(manifestpath)
 headerinfo = {}
 headerinfo['title']= manifestlabel
-headerinfo['added']= '''2023-05-11 18&#58;01&#58;49.871714'''
+headerinfo['added']= '''2023-05-11 18&#58;29&#58;08.562069'''
 headerinfo['thumbnail'] = manifest.items[0].thumbnail[0].id
 filecontents = open(manifestpath).read()
 with open(manifestpath, 'w') as f:
