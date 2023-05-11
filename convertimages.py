@@ -100,7 +100,7 @@ manifestpath = os.path.join(dst, 'manifest.json')
 manifest.json_save(manifestpath)
 headerinfo = {}
 headerinfo['title']= manifestlabel
-headerinfo['added']= '''2023-05-11 18&#58;00&#58;17.900459'''
+headerinfo['added']= '''2023-05-11 18&#58;01&#58;49.871714'''
 headerinfo['thumbnail'] = manifest.items[0].thumbnail[0].id
 filecontents = open(manifestpath).read()
 with open(manifestpath, 'w') as f:
