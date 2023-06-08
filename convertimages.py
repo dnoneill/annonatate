@@ -7,7 +7,7 @@ from iiif_prezi.factory import ManifestFactory
 import yaml
 import concurrent.futures
 
-files = [('images/2.jpg', '[2]')]
+files = []
 manifestlabel = '''test'''
 dst = os.path.join('img/derivatives/iiif/', 'test') + '/'
 baseurl = os.path.join('https://dnoneill.github.io/annonatate/', dst)
@@ -101,7 +101,7 @@ manifestpath = os.path.join(dst, 'manifest.json')
 manifest.json_save(manifestpath)
 headerinfo = {}
 headerinfo['title']= manifestlabel
-headerinfo['added']= '''2023-06-08 15&#58;50&#58;32.382058'''
+headerinfo['added']= '''2023-06-08 15&#58;50&#58;32.364302'''
 headerinfo['thumbnail'] = manifest.items[0].thumbnail[0].id
 filecontents = open(manifestpath).read()
 with open(manifestpath, 'w') as f:
