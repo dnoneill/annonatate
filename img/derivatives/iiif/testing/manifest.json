@@ -1,7 +1,7 @@
 ---
-added: 2023-06-08 18&#58;09&#58;00.680528
+added: 2023-06-08 18&#58;27&#58;16.681717
 thumbnail: https://dnoneill.github.io/annonatate/img/derivatives/iiif/testing/2/full/107,/0/default.jpg
-title: testing....
+title: testing
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
@@ -9,7 +9,7 @@ title: testing....
   "type": "Manifest",
   "label": {
     "en": [
-      "testing...."
+      "testing"
     ]
   },
   "summary": {
