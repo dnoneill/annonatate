@@ -1,0 +1,71 @@
+---
+added: 2023-06-08 18&#58;59&#58;08.427528
+thumbnail: https://dnoneill.github.io/annonatate/img/derivatives/iiif/test3/2/full/107,/0/default.jpg
+title: test3
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test3/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "test3"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test3/canvas/test3-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "[2]"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test3/2/full/107,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 4552,
+      "width": 6879,
+      "items": [
+        {
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test3/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test3/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test3/2/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4552,
+                "width": 6879,
+                "service": [
+                  {
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test3/2",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test3/canvas/test3-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
