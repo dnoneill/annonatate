@@ -7,9 +7,9 @@ from iiif_prezi.factory import ManifestFactory
 import yaml
 import concurrent.futures
 
-files = [('images/KICImage24.png', 'KIC Image 24'), ('images/KICImage25.png', 'KIC Image 25')]
-manifestlabel = '''new 38 mb images'''
-dst = os.path.join('img/derivatives/iiif/', 'new38mbimages') + '/'
+files = [('images/1.jpg', '[1]'), ('images/2.jpg', '[2]')]
+manifestlabel = '''Mechanical harvesting test'''
+dst = os.path.join('img/derivatives/iiif/', 'Mechanicalharvestingtest') + '/'
 baseurl = os.path.join('https://dnoneill.github.io/annonatate/', dst)
 data = []
 allfiles = []
@@ -73,7 +73,7 @@ data = tuple(data)
 for idx,d in enumerate(data):
     idx+=1
     canvas = manifest.add_canvas_to_items()
-    canvas.set_id(extendbase_url='canvas/new38mbimages-%s'%idx)
+    canvas.set_id(extendbase_url='canvas/Mechanicalharvestingtest-%s'%idx)
     canvas.set_height(d[2])
     canvas.set_width(d[1])
     canvas.add_label('en', d[5])
@@ -101,7 +101,7 @@ manifestpath = os.path.join(dst, 'manifest.json')
 manifest.json_save(manifestpath)
 headerinfo = {}
 headerinfo['title']= manifestlabel
-headerinfo['added']= '''2023-05-11 18&#58;36&#58;51.800962'''
+headerinfo['added']= '''2023-06-08 14&#58;57&#58;41.105610'''
 headerinfo['thumbnail'] = manifest.items[0].thumbnail[0].id
 filecontents = open(manifestpath).read()
 with open(manifestpath, 'w') as f:
