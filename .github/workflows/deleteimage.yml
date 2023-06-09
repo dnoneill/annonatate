@@ -1,4 +1,4 @@
-name: delete_images_img/derivatives/iiif/testing2
+name: delete_images_img/derivatives/iiif/2
 on: workflow_dispatch
 permissions:
   contents: write
@@ -11,7 +11,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: delete
-        run: rm -r img/derivatives/iiif/testing2
+        run: rm -r img/derivatives/iiif/2
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
@@ -19,7 +19,7 @@ jobs:
           git config pull.rebase false
           git pull origin main
           git add -A
-          git commit -m "delete img/derivatives/iiif/testing2" -a || echo "No changes to commit"
+          git commit -m "delete img/derivatives/iiif/2" -a || echo "No changes to commit"
       - name: pull
         run: git pull origin main
       - name: push changes
