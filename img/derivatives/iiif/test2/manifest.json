@@ -1,6 +1,6 @@
 ---
-added: 2023-06-09 13&#58;52&#58;02.281864
-thumbnail: https://dnoneill.github.io/annonatate/img/derivatives/iiif/test2/default3/full/155,/0/default.jpg
+added: 2023-06-09 13&#58;58&#58;16.049949
+thumbnail: https://dnoneill.github.io/annonatate/img/derivatives/iiif/test2/default4/full/114,/0/default.jpg
 title: test2
 ---
 {
@@ -27,17 +27,17 @@ title: test2
       "type": "Canvas",
       "label": {
         "en": [
-          "default-3"
+          "default-4"
         ]
       },
       "thumbnail": [
         {
-          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test2/default3/full/155,/0/default.jpg",
+          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test2/default4/full/114,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
-      "height": 2823,
-      "width": 2477,
+      "height": 4624,
+      "width": 3663,
       "items": [
         {
           "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test2/page/p1/1",
@@ -48,14 +48,14 @@ title: test2
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test2/default3/full/full/0/default.jpg",
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test2/default4/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2823,
-                "width": 2477,
+                "height": 4624,
+                "width": 3663,
                 "service": [
                   {
-                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test2/default3",
+                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/test2/default4",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
