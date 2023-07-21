@@ -1,4 +1,9 @@
 images:
+- added: '2023-07-21 13:02:19.456889'
+  iiif: true
+  thumbnail: https://bcl-180.unice.fr:11280/iiif/ALMC3/ALMC_3_0001/full/full/0/default.jpg
+  title: ALMC3
+  url: https://bcl.cnrs.fr/iiif/ALMC3/manifest.json
 - added: '2023-04-11 16:21:48.328557'
   iiif: true
   thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
@@ -16,6 +21,7 @@ images:
     \ Auslieferung derer Deserteurs und anderen militarischen Misseth\xE4ter (dto.\
     \ Mayntz den 6. Februarii 1747)."
   url: https://iiif.onb.ac.at/presentation/ABO/+Z196807705/manifest/
+manifests: []
 settings:
   tempuser: notenabled
   viewer: default
