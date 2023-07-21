@@ -1,4 +1,9 @@
 images:
+- added: '2023-07-21 17:07:38.008907'
+  iiif: true
+  thumbnail: https://bcl-180.unice.fr:11280/iiif/ALMC3/ALMC_3_0001/full/full/0/default.jpg
+  title: ALMC3
+  url: https://bcl.cnrs.fr/iiif/ALMC3/manifest.json
 - added: '2023-04-11 16:21:48.328557'
   iiif: true
   thumbnail: https://www.e-newspaperarchives.ch/iiif/image/LBP18880901-01.1.1/full/120,/0/default.jpg
