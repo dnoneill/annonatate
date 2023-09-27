@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testlargeimages/canvas/testlargeimages-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2023-09-27T14:17:07.095Z",
+            "modified": "2023-09-27T14:17:08.157Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testlargeimages/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/testlargeimages/canvas/testlargeimages-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=952.978271484375,1420.964111328125,905.206787109375,494.7060546875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c7836812-cca7-41c2-9d27-934e1a813071.json",
+    "motivation": "commenting"
+}
