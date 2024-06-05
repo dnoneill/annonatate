@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/twoitemmanifest//MonnaieTetradrachmeargentAlexandreAlexandrelllbtv1b849994881",
+  "height": 1054,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 264,
+      "width": 256
+    },
+    {
+      "height": 132,
+      "width": 128
+    },
+    {
+      "height": 66,
+      "width": 64
+    },
+    {
+      "height": 33,
+      "width": 32
+    },
+    {
+      "height": 16,
+      "width": 16
+    },
+    {
+      "height": 8,
+      "width": 8
+    },
+    {
+      "height": 4,
+      "width": 4
+    },
+    {
+      "height": 2,
+      "width": 2
+    },
+    {
+      "height": 1,
+      "width": 1
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2
+      ],
+      "width": 512
+    }
+  ],
+  "width": 1024
+}
