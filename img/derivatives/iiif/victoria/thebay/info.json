@@ -1,0 +1,60 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria//thebay",
+  "height": 952,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 60,
+      "width": 296
+    },
+    {
+      "height": 30,
+      "width": 148
+    },
+    {
+      "height": 15,
+      "width": 74
+    },
+    {
+      "height": 7,
+      "width": 37
+    },
+    {
+      "height": 4,
+      "width": 19
+    },
+    {
+      "height": 2,
+      "width": 9
+    },
+    {
+      "height": 1,
+      "width": 5
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 512
+    }
+  ],
+  "width": 4736
+}
