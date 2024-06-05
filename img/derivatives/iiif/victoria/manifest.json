@@ -1,12 +1,9 @@
 ---
-added: 2024-06-05 17&#58;10&#58;11.493658
-thumbnail: https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/mysticvaletrail/full/153,/0/default.jpg
-title: Victoria
-user: dnoneill
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -24,7 +21,7 @@ user: dnoneill
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/canvas/victoria-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/canvas/victoria-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -33,7 +30,7 @@ user: dnoneill
       },
       "thumbnail": [
         {
-          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/mysticvaletrail/full/153,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/mysticvaletrail/full/153,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -41,35 +38,41 @@ user: dnoneill
       "width": 9792,
       "items": [
         {
-          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/mysticvaletrail/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/mysticvaletrail/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 920,
                 "width": 9792,
                 "service": [
                   {
-                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/mysticvaletrail",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/mysticvaletrail",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/canvas/victoria-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/canvas/victoria-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/victoria-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/canvas/victoria-2",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/canvas/victoria-2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -78,7 +81,7 @@ user: dnoneill
       },
       "thumbnail": [
         {
-          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/thebay/full/148,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/thebay/full/148,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -86,30 +89,36 @@ user: dnoneill
       "width": 4736,
       "items": [
         {
-          "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/page/p2/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/annotation/p0002-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/thebay/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/thebay/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 952,
                 "width": 4736,
                 "service": [
                   {
-                    "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/thebay",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/thebay",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/canvas/victoria-2"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/victoria/canvas/victoria-2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/victoria-2-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }
