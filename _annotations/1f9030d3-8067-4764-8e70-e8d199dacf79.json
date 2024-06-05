@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/canvas/victoria-2"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "person",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2024-06-05T21:55:06.982Z",
+            "modified": "2024-06-05T21:55:07.517Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/annonatate/img/derivatives/iiif/victoria/canvas/victoria-2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3268.50732421875,309.23944091796875,600.337890625,541.04541015625"
+        }
+    },
+    "id": "1f9030d3-8067-4764-8e70-e8d199dacf79.json",
+    "motivation": "commenting"
+}
